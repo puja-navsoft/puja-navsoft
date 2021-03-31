@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        app:contentPadding="@dimen/margin_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15"
+        app:cardBackgroundColor="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:elevation="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:background="@drawable/corner_border"
+                android:id="@+id/barcodeImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                 />
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/voucherTitle"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    style="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/barcodeImage"
+                    android:text="voucherName"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/greyDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reference_order_number" />
+
+                    <TextView
+                        android:textColor="#2196f3"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:id="@+id/voucherRefOrderNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:text="565656464"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/greyDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/status" />
+
+                    <TextView
+                        android:textColor="@color/greyDark"
+                        android:id="@+id/voucherStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:text="Active" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/greyDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/voucher_discount" />
+
+                    <TextView
+                        android:textColor="@color/trans_greyXDark"
+                        android:id="@+id/voucherDiscountAmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:text="" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/greyDark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/expiry" />
+
+                    <TextView
+                        android:textColor="@color/trans_greyXDark"
+                        android:id="@+id/voucherExpiry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:text="" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tvReedembtn"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:background="@color/greenButton"
+                    android:paddingBottom="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_10"
+                    android:text="Reedem"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/voucherDiscountPercentageAmt"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

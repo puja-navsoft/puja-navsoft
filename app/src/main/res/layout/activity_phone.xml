@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyLight"
+    tools:context="com.afieat.ini.SignUpActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/appbar"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:id="@+id/topText"
+            android:textColor="@color/black"
+            android:layout_marginTop="25dp"
+            android:gravity="center|center_horizontal"
+            android:text="Please enter the Phone Number"/>
+
+        <LinearLayout
+            android:layout_below="@+id/topText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/phoneLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/margin_16"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: "
+                    android:textSize="18sp"
+                    android:layout_marginRight="@dimen/margin_5"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+964"
+                    android:id="@+id/codeField"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:layout_marginRight="@dimen/margin_5" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/phoneField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:hint="0000000000"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/emailLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textSize="18sp"
+                    android:layout_marginRight="@dimen/margin_5"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/emailField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:hint=""/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/phSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_16"
+                android:layout_marginRight="@dimen/margin_16"
+                android:layout_marginTop="@dimen/margin_16"
+                android:text="SUBMIT"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:background="@color/greenButton"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

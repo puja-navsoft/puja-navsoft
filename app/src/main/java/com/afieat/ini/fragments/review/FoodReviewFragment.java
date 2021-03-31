@@ -1,0 +1,43 @@
+package com.afieat.ini.fragments.review;
+
+import android.annotation.SuppressLint;
+import android.os.Bundle;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.afieat.ini.R;
+
+@SuppressLint("ValidFragment")
+public class FoodReviewFragment extends Fragment {
+
+    private ViewPager viewPager;
+    private TextView btFoodSubmit;
+
+    @SuppressLint("ValidFragment")
+    public  FoodReviewFragment (ViewPager viewPager){
+        this.viewPager=viewPager;
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view= inflater.inflate(R.layout.fragment_food_review, container, false);
+
+       // viewPager=view.findViewById(R.id.tab_review);
+        btFoodSubmit=view.findViewById(R.id.bt_foodSubmit);
+        btFoodSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                viewPager.setCurrentItem(1);
+            }
+        });
+
+        return view;
+    }
+}

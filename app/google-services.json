@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "271828680724",
+    "firebase_url": "https://afieat-driver-c0dd3.firebaseio.com",
+    "project_id": "afieat-driver-c0dd3",
+    "storage_bucket": "afieat-driver-c0dd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271828680724:android:5d98902b2eb14b3a2de701",
+        "android_client_info": {
+          "package_name": "com.afieat.ini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271828680724-ickatvgooo0mjdjp7c458ome9ke0krp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV1siaetFYC1JzcIpeH4jJxLXkBDeXbSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271828680724-ickatvgooo0mjdjp7c458ome9ke0krp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271828680724:android:8a52328a57ec470b2de701",
+        "android_client_info": {
+          "package_name": "com.navsoft.afieatdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271828680724-u6dik2s28l9vjp49im6drv54p6ganik4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navsoft.afieatdriver",
+            "certificate_hash": "aed38f82fa7c7eaf275ba2688814eb8b652cc0ae"
+          }
+        },
+        {
+          "client_id": "271828680724-ickatvgooo0mjdjp7c458ome9ke0krp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV1siaetFYC1JzcIpeH4jJxLXkBDeXbSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271828680724-ickatvgooo0mjdjp7c458ome9ke0krp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

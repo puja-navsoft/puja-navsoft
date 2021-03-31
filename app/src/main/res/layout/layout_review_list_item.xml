@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/margin_5"
+    app:cardBackgroundColor="@color/cardview_light_background">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/llReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_name"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvReviewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/sample_date"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/llRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:elevation="0dp"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="9dp">
+
+                    <RatingBar
+                        android:id="@+id/rating"
+                        android:layout_marginTop="-0.8dp"
+                        style="@style/myrating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:visibility="gone" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:elevation="0dp"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="9dp">
+
+                    <RatingBar
+                        android:id="@+id/rating_3"
+                        style="@style/CustomRating3"
+                        android:layout_marginTop="-0.8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:isIndicator="true"
+                        android:visibility="gone" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:elevation="0dp"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="9dp">
+
+                    <RatingBar
+                        android:id="@+id/rating_3_5"
+                        android:layout_marginTop="-0.8dp"
+                        style="@style/CustomRating3_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:isIndicator="true"
+                        android:visibility="gone" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:elevation="0dp"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="9dp">
+
+                    <RatingBar
+                        android:id="@+id/rating_4"
+                        style="@style/CustomRating4"
+                        android:layout_marginTop="-0.8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:isIndicator="true"
+                        android:visibility="gone" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:elevation="0dp"
+                    app:cardBackgroundColor="@color/cardview_light_background"
+                    app:cardCornerRadius="8dp">
+
+                    <RatingBar
+                        android:layout_marginTop="-0.8dp"
+                        android:id="@+id/rating_4_5"
+                        style="@style/CustomRating4_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:elevation="0dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:isIndicator="true"
+                        android:visibility="gone" />
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/tvRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="2.5"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvReview"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/sample_text_huge"
+                android:textColor="@color/greyDark" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+
+            <!--<HorizontalScrollView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="40dp">-->
+
+            <!--<LinearLayout android:id="@+id/_linearLayout"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:scrollbars="none"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--</LinearLayout>-->
+
+            <!--</HorizontalScrollView>-->
+
+            <LinearLayout
+                android:id="@+id/linearLayoutGallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toLeftOf="@+id/tvDelete"
+            android:layout_toStartOf="@+id/tvDelete"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:text="@string/menu_edit"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:text="@string/menu_delete"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

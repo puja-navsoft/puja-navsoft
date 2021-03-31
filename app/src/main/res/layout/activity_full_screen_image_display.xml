@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/greyXDark"
+                tools:context="com.afieat.ini.FullScreenImageDisplay">
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_below="@+id/appbar"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="19sp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:id="@+id/TXTCount"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@+id/appbar"
+        android:id="@+id/ViewPAGE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>

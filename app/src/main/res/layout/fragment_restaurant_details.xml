@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/detailFragmentRel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/viewBlackBottom"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF0F0F0">
+
+            <ListView
+                android:id="@+id/lvRestaurantItems"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/homeContentRel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/topViewRel"
+                        android:layout_marginBottom="@dimen/margin_10"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/restaurantName"
+                            style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="Restaurant Name"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/restaurantLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantName"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="restaurent location" />
+
+                        <TextView
+                            android:id="@+id/restaurantSpeciality"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantLocation"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="restaurent speciality" />
+
+                        <TextView
+                            android:visibility="gone"
+                            android:id="@+id/restaurantReviews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantSpeciality"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="" />
+
+                        <View
+                            android:id="@+id/view1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_1"
+                            android:layout_below="@+id/restaurantReviews"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:background="@color/greyLight" />
+
+                        <TextView
+                            android:id="@+id/restaurantOpeningStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view1"
+
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="open now : 10:20 am to 10:20 pm(wednesday)"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/restaurantDeliveryCharge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantOpeningStatus"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/del_charge_bg"
+                            android:gravity="center"
+                            android:padding="@dimen/margin_5"
+                            android:text="Delivery Charge"
+                            android:textColor="@color/colorPrimary" />
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutBelowDeliveryCharge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantDeliveryCharge"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:layout_marginTop="12dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:text="@string/list_minimum_order"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="11sp" />
+
+                                <TextView
+                                    android:id="@+id/restaurantMinimumOrder"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="@dimen/margin_5"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:text="@string/list_processing_time"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="11sp" />
+
+                                <TextView
+                                    android:id="@+id/resProcessingTime"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="@dimen/margin_5"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_weight="1"
+                                    android:text="@string/list_delivery_time"
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="11sp" />
+
+                                <TextView
+                                    android:id="@+id/resDeliveryTime"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="@dimen/margin_5"
+                                    android:layout_weight="1"
+                                    android:text=""
+                                    android:textAlignment="center"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_1"
+                            android:layout_below="@+id/linearLayoutBelowDeliveryCharge"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:background="@color/greyLight" />
+
+
+                        <LinearLayout
+
+                            android:id="@+id/linearLayoutBelowAction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view2"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/add_favorite"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawablePadding="@dimen/margin_5"
+                                android:drawableTop="@drawable/favorite"
+                                android:text="@string/add_favorite"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/add_review"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawablePadding="@dimen/margin_5"
+                                android:drawableTop="@drawable/review"
+                                android:text="@string/add_reviews"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/add_photo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_weight="1"
+                                android:drawablePadding="@dimen/margin_5"
+                                android:drawableTop="@drawable/photo"
+                                android:text="@string/add_photos"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cv1"
+                    android:layout_marginTop="@dimen/margin_15"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/discountoff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/green_bg"
+                        android:elevation="@dimen/margin_1"
+                        android:paddingBottom="@dimen/margin_5"
+                        android:paddingLeft="@dimen/margin_10"
+                        android:paddingRight="@dimen/margin_10"
+                        android:paddingTop="@dimen/margin_5"
+                        android:shadowColor="@color/transparent"
+                        android:text="20% off"
+                        android:textColor="@color/white" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@color/cardview_light_background"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/discountoffText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/margin_20"
+                            android:text="20% off on your first order"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/autoapplyText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/discountoffText"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:gravity="center"
+                            android:paddingBottom="@dimen/margin_20"
+                            android:text="@string/auto_applies_during_checkout"
+                            android:textColor="@color/greenButton"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/openingHours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLay1"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="@string/OPENING_HOURS"
+                    android:textColor="@color/black" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/openingHours"
+                    android:layout_marginBottom="@dimen/margin_20"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:id="@+id/llOpeningTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="vertical">
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <View
+        android:id="@+id/viewBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:visibility="gone"
+        android:id="@+id/afieatLoader"
+        android:layout_centerInParent="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+</RelativeLayout>

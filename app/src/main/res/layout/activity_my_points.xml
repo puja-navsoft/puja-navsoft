@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F0F0F0"
+                tools:context=".MyPoints">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_10"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/curved_border_color_primary"
+            android:padding="@dimen/margin_10">
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/margin_5"
+                android:src="@drawable/points" />
+
+            <TextView
+                android:id="@+id/rewardPointsValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv1"
+                android:layout_toRightOf="@+id/iv1"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rewardPointstxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rewardPointsValue"
+                android:layout_toRightOf="@+id/iv1"
+                android:text="@string/loyalty_points"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_weight="1"
+            android:background="@drawable/curved_border_color_primary"
+            android:padding="@dimen/margin_10">
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/margin_5"
+
+                android:src="@drawable/referral" />
+
+            <TextView
+                android:id="@+id/referalCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/iv2"
+                android:layout_toRightOf="@+id/iv2"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/referalCounttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/referalCount"
+                android:layout_toRightOf="@+id/iv2"
+                android:text="@string/total_referral"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rell1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:background="@color/cardview_light_background"
+        android:padding="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/yrctxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/margin_3"
+            android:text="@string/your_referral_code" />
+
+        <TextView
+            android:id="@+id/referalCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_3"
+            android:layout_marginStart="@dimen/margin_3"
+            android:layout_toEndOf="@+id/yrctxt"
+            android:layout_toRightOf="@+id/yrctxt"
+            android:text="00A5960EF"
+            android:textColor="@color/blue" />
+
+        <ImageView
+            android:id="@+id/copyReferalCode"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_toLeftOf="@+id/shareReferralCode"
+            android:layout_toStartOf="@+id/shareReferralCode"
+            android:padding="5dp"
+            android:src="@drawable/copy_mypoint" />
+
+        <ImageView
+
+            android:id="@+id/shareReferralCode"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_3"
+            android:padding="5dp"
+            android:src="@drawable/share_mypoints" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rell2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rell1"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@color/cardview_light_background"
+        android:padding="@dimen/margin_10">
+
+        <TextView
+            android:id="@+id/yrmtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/margin_3"
+            android:text="@string/your_membership" />
+
+        <TextView
+            android:id="@+id/loyaltyGName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_3"
+            android:layout_marginStart="@dimen/margin_3"
+            android:layout_toEndOf="@+id/yrmtxt"
+            android:layout_toRightOf="@+id/yrmtxt"
+            android:text="Diamond"
+            android:textColor="@color/blue" />
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rewardPointRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear1"
+        android:layout_below="@+id/rell2"
+        android:layout_marginTop="@dimen/margin_10" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/trans_greyXXDark"
+            android:gravity="center"
+            android:paddingBottom="@dimen/margin_15"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_15"
+            android:text="@string/point_products"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/referFriendBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_50"
+            android:layout_weight="1"
+            android:background="@drawable/round_edge_rect_green"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:text="@string/referred_friends"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F0F0"
+    android:fitsSystemWindows="true"
+    tools:context="com.afieat.ini.RestaurantListActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar">
+
+        <ListView
+            android:id="@+id/lvRestaurants"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRestaurants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/greyLight"
+            android:visibility="visible" />
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navView"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/navHeader"
+                    layout="@layout/layout_nav_header" />
+
+                <ListView
+                    android:id="@+id/lvNav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </com.google.android.material.navigation.NavigationView>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/sortView"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end">
+
+            <include
+                android:id="@+id/viewFilter"
+                layout="@layout/layout_filter_menu" />
+        </com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/afieatLoader"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/afieat_small" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <include
+
+            android:id="@+id/orderCartView"
+            layout="@layout/ordercartviewpager"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:visibility="gone">
+
+        </include>
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+</RelativeLayout>

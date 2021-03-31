@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddressFromMapActivity">
+
+        <include
+            android:id="@+id/appbar"
+            layout="@layout/app_bar" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            tools:context=".MapsActivity"/>
+
+        <ScrollView
+            android:layout_below="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:fontFamily="@font/alike_angular"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="@dimen/margin_10"
+                        android:layout_width="@dimen/margin_100"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Name: "/>
+                    <EditText
+                        android:fontFamily="@font/alike_angular"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Name"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:fontFamily="@font/alike_angular"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="@dimen/margin_10"
+                        android:layout_width="@dimen/margin_100"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="City: "/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/select_city"
+                    app:errorEnabled="true"
+                    android:layout_marginEnd="@dimen/margin_16"
+                    app:errorTextAppearance="@color/colorPrimaryDark">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tetCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                 <LinearLayout
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:fontFamily="@font/alike_angular"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:layout_marginStart="@dimen/margin_10"
+                        android:layout_width="@dimen/margin_100"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Region: "/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/select_region"
+                    app:errorEnabled="true"
+                    app:errorTextAppearance="@color/colorPrimaryDark">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tetRegion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false" />
+                </com.google.android.material.textfield.TextInputLayout>
+                 </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</layout>

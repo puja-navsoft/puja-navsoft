@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnApplyFilter">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_sort_black_24dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_sort_black_24dp"
+                android:padding="10dp"
+                android:text="@string/sort"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spSortList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sort_menu"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:visibility="gone"
+                android:spinnerMode="dialog" />
+
+            <RadioGroup
+                android:id="@+id/rgSort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbPopularity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/popularity"/>
+                <RadioButton
+                    android:id="@+id/rbRatings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ratings"/>
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/greyLight" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_filter_list_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_filter_list_black_24dp"
+                    android:padding="10dp"
+                    android:text="@string/menu_filter"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/ivClearFilter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/img_clear"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_clear_black_18dp" />
+            </RelativeLayout>
+
+
+            <RadioGroup
+                android:id="@+id/rgFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp">
+
+                <RadioButton
+                    android:id="@+id/rbFilterOffer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/filter_offer" />
+
+                <RadioButton
+                    android:id="@+id/rbFilterNewRests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/filter_new_restaurant" />
+
+                <RadioButton
+                    android:id="@+id/rbFilterRatings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:visibility="gone"
+                    android:text="@string/filter_rating" />
+
+                <RadioButton
+                    android:id="@+id/rbFilterOpenRests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/filter_open_restaurant" />
+
+                <RadioButton
+                    android:id="@+id/rbFilterVeg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:visibility="gone"
+                    android:text="@string/filter_veg" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/greyLight" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:text="@string/cuisine"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spCuisine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:spinnerMode="dialog" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/greyLight" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:text="@string/price"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:id="@+id/rgPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbLo2Hi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/lo_2_hi"/>
+                <RadioButton
+                    android:id="@+id/rbHi2Lo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hi_2_lo"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnApplyFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/greenButton"
+        android:text="@string/apply"
+        android:textColor="@color/white" />
+</RelativeLayout>

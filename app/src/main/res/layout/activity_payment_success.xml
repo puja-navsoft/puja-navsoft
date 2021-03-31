@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afieat.ini.PaymentSuccessActivity">
+
+    <include
+        android:id="@id/appbar"
+        layout="@layout/app_bar" />
+
+    <RelativeLayout
+        android:id="@+id/rlRestaurantBgWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/appbar">
+
+        <ImageView
+            android:id="@+id/orderSuccessResImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/sample_text"
+            android:scaleType="fitXY"
+            android:src="@drawable/delivery_type" />
+
+        <include
+            android:id="@+id/cardRestaurant"
+            layout="@layout/layout_card_restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlRestaurantBgWrapper"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:drawableLeft="@drawable/green_bell"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/green_bell"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/msg_order_placed_success"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/order_number"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvOrderNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_number"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delivery_date"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvDeliveryDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_date"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delivery_time"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvDeliveryTimeslot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvDeliveryAddress"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_text_long"
+                android:drawableStart="@drawable/ic_location_on_black_18dp"
+                android:drawableLeft="@drawable/ic_location_on_black_18dp"
+                android:drawablePadding="20dp"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_edge_rect_green"
+        android:text="@string/_continue"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white" />
+</RelativeLayout>

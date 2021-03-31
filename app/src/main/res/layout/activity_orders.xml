@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afieat.ini.OrdersActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar"/>
+
+    <ListView
+        android:id="@+id/lvOrders"
+        android:layout_below="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:divider="@android:color/transparent"
+        android:scrollbars="none"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

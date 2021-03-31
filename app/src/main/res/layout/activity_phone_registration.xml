@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/page"
+    tools:context=".PhoneRegistration">
+
+    <ImageView
+        android:layout_width="@dimen/margin_60"
+        android:layout_height="@dimen/margin_60"
+        android:id="@+id/backBtn"
+        android:padding="@dimen/margin_5"
+        android:src="@drawable/ic_keyboard_arrow_left_white_48dp"
+        android:elevation="@dimen/margin_5"/>
+
+
+    <ImageView
+        android:id="@+id/imagebg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/plates_login_bg"
+        android:elevation="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/imagebg"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_size_20"
+        android:id="@+id/phoneHeading"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/enter_your_phone_number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/phoneLayout"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/new_white_bg"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/phoneHeading"
+        android:weightSum="1">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/tetIsd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="0.2"
+            android:background="@null"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="+964" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tetMobile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="5dp"
+            android:imeOptions="actionNext"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0.8"
+            android:background="@null"
+            android:gravity="center"
+            android:hint="xxxxxxxx"
+            android:inputType="phone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPhReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@+id/phoneLayout"
+        android:layout_marginTop="15dp"
+        android:imeOptions="actionDone"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_edge_rect_green"
+        android:text="@string/register"
+        android:textColor="@color/white" />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/btnPhReg"-->
+<!--        android:textColor="#959393"-->
+<!--        android:layout_marginTop="@dimen/margin_8"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginEnd="@dimen/margin_16"-->
+<!--        android:text="Skip adding phone number >"/>-->
+
+</RelativeLayout>
+
+</layout>

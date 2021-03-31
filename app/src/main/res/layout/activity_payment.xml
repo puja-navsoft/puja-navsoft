@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afieat.ini.PaymentActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:id="@+id/svPayment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:background="@color/bg_page"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/sample_number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTotalUsd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/sample_number"
+                    android:visibility="gone"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/total"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/sample_number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relDeliveryCharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/delTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delivery_charge"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvDeliveryCharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/sample_number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayMyPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/margin_5">
+
+                <TextView
+                    android:id="@+id/my_point_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/loyaltyPointsCheckboxTxt"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text=""
+                    android:layout_marginEnd="@dimen/margin_10"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+                <CheckBox
+                    android:id="@+id/loyaltyPointsCheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/loyaltyPointsCheckboxTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/loyaltyPointsCheckbox"
+                    android:layout_toEndOf="@+id/loyaltyPointsCheckbox"
+                    android:layout_toRightOf="@+id/loyaltyPointsCheckbox"
+                    android:layout_weight="1"
+                    android:text="@string/loyalty_points"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/my_point_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/loyaltyPointsCheckboxTxt"
+                    android:layout_marginLeft="@dimen/margin_3"
+                    android:layout_toRightOf="@+id/loyaltyPointsCheckboxTxt"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/availableBalance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/loyaltyPointsCheckboxTxt"
+                    android:layout_toEndOf="@+id/loyaltyPointsCheckbox"
+                    android:layout_toRightOf="@+id/loyaltyPointsCheckbox"
+                    android:layout_weight="1"
+                    android:text="(Available balance $123)" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/tvDeliveryCharge"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/greyXXLight" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/net_payable"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvNetPayable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/sample_number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/net_payable"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvNetPayableUSD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/sample_number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/bg_page"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delivery_address"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvChangeAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/change"
+                    android:textColor="@color/greenButton" />
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                app:errorTextAppearance="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/name"
+                    android:inputType="textCapWords" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                app:errorTextAppearance="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetFathersName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/fathers_name"
+                    android:inputType="textCapWords" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:visibility="gone"
+                app:errorTextAppearance="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetFamilyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/family_name"
+                    android:inputType="textCapWords" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                app:errorTextAppearance="@color/colorPrimary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/mobile_no"
+                    android:inputType="phone" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/title_address"
+                    android:inputType="textPostalAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="15dp"
+                    app:errorTextAppearance="@color/colorPrimary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tetCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:hint="@string/city"
+                        android:inputType="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="15dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:paddingStart="5dp"
+                    app:errorTextAppearance="@color/colorPrimary">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tetRegion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:hint="@string/region"
+                        android:inputType="none" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/bg_page"
+                android:padding="10dp"
+                android:text="@string/select_payment_mode"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvCashOnDel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/check"
+                android:drawableRight="@drawable/check"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="@string/cash_on_delivery"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp">
+
+                <include layout="@layout/layout_simple_line" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvCreditCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/uncheck"
+                android:drawableRight="@drawable/uncheck"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="@string/credit_card"
+                android:textSize="15sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp">
+
+                <include layout="@layout/layout_simple_line" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tvPrepaidCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/uncheck"
+                android:drawableRight="@drawable/uncheck"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp"
+                android:text="@string/prepaid_card"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnAddToBasket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_edge_rect_green"
+                android:text="@string/order_now"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

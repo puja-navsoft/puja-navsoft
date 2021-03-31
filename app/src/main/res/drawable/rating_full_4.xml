@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- full star is name of image file of full star-->
+    <item android:drawable="@drawable/full_rating_above_4_small" android:state_focused="true" android:state_window_focused="true" />
+
+    <item android:drawable="@drawable/full_rating_above_4_small" android:state_selected="true" android:state_window_focused="true" />
+
+    <item android:drawable="@drawable/full_rating_above_4_small" android:state_pressed="true" android:state_window_focused="true" />
+
+    <item android:drawable="@drawable/full_rating_above_4_small" />
+
+</selector>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.afieat.ini.CustomerReviewActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/appbar">
+
+        <TextView
+            android:id="@+id/review_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate and Review"
+            android:textSize="18sp"
+            android:textAllCaps="true"/>
+
+        <RatingBar
+            android:id="@+id/ratingAvg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:numStars="5"
+            android:rating="5"
+            android:stepSize="1"
+            android:layout_below="@+id/review_txt"
+            android:theme="@style/RatingBar"/>
+        <View
+            android:layout_below="@+id/ratingAvg"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/trans_greyDark"/>
+
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingAvg"
+            android:layout_marginTop="10dp"
+            android:lines="3"
+            android:hint="@string/comment"
+            android:background="@android:color/transparent"
+            android:text="" />
+
+    </RelativeLayout>
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recycler_view"
+    android:layout_width="match_parent"
+    android:layout_above="@+id/BTN_Submit"
+    android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+<TextView
+    android:id="@+id/BTN_Submit"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:text="@string/_submit"
+    android:gravity="center"
+    android:textAllCaps="true"
+    android:textColor="@color/white"
+    android:layout_marginStart="@dimen/margin_16"
+    android:layout_marginEnd="@dimen/margin_16"
+    android:layout_marginBottom="@dimen/margin_10"
+    android:background="@drawable/round_edge_rect_green"
+    android:layout_height="50dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

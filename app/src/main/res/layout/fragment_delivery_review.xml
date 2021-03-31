@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_10"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_below="@+id/appbar">
+
+            <TextView
+                android:id="@+id/tv_dpRatingTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rate and Review"
+                android:textAllCaps="true"
+                android:textSize="18sp" />
+
+            <RatingBar
+                android:id="@+id/rb_dpRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:numStars="5"
+                android:rating="5"
+                android:stepSize="1"
+                android:theme="@style/RatingBar"
+                android:layout_below="@+id/tv_dpRatingTitle"/>
+
+            <TextView
+                android:id="@+id/tv_dpReviewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="Review Title"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_below="@+id/rb_dpRating"/>
+
+            <LinearLayout
+                android:id="@+id/ll_dpReview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/corner_border"
+                android:gravity="center"
+                android:layout_below="@+id/tv_dpReviewTitle">
+
+                <TextView
+                    android:id="@+id/tv_dpReview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:text="Please select your review"
+                    android:textAllCaps="false"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_dpMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="Review "
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_below="@+id/ll_dpReview"/>
+
+            <EditText
+                android:id="@+id/et_dpMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/corner_border"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:maxLines="10"
+                android:minLines="8"
+                android:scrollbars="vertical"
+                android:layout_below="@+id/tv_dpMsg"
+                android:hint="Please give your review ... "
+                android:textSize="15sp"
+                android:textColorHint="@color/greyLight"
+                android:padding="@dimen/margin_10"
+
+                />
+           <!-- <TextView
+                android:id="@+id/tv_dpPic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="Picture (Optional)"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_below="@+id/et_dpMsg"
+                android:gravity="center"/>
+            <LinearLayout
+                android:id="@+id/ll_dpPic"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_100"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/corner_border"
+                android:gravity="center"
+                android:layout_below="@+id/tv_dpPic"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/iv_dpPic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:src="@drawable/icon_plus"
+                    android:tint="@color/greyLight"
+                    android:layout_margin="@dimen/margin_20"
+                    />
+            </LinearLayout>
+
+-->
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16">
+        <TextView
+            android:id="@+id/bt_dpPrevious"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/round_edge_rect_green"
+            android:gravity="center"
+            android:text="Previous"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:layout_below="@+id/et_dpMsg"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/margin_5"
+            />
+        <TextView
+            android:id="@+id/bt_dpSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/round_edge_rect_green"
+            android:gravity="center"
+            android:text="submit"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:layout_below="@+id/et_dpMsg"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/margin_5"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

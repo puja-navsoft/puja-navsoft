@@ -1,0 +1,156 @@
+buildscript {
+    repositories {
+//        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+//        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+//apply plugin: 'io.fabric'
+
+
+repositories {
+//    maven { url 'https://maven.fabric.io/public' }
+
+}
+
+android {
+
+
+
+    dataBinding.enabled true
+    signingConfigs {
+        config {
+            //keyAlias 'afieat'
+            keyAlias 'afieat_alias'
+            keyPassword 'afieat1234@'
+            // storeFile file('/Users/amartya/Desktop/AFIEAt/Afieat/keystore/afieat.jks')
+            //storeFile file('/Users/Ranjan/AndroidStudioProjects/Afieat_WorkSpace/Afieat/keystore/afieat.jks')
+            //storeFile file('/Users/pradyumna/Sourav/Afieat/keystore/afieat.jks')
+                                    storeFile file('/home/nav147/Sourav/Afieat2.0/Afieat/keystore/afieat.jks')
+            storePassword 'afieat1234@'
+        }
+
+
+    }
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.afieat.ini"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode 76
+        versionName "3.6.0"
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            multiDexEnabled true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+
+    configurations.all {
+        resolutionStrategy {
+            force "com.android.support:appcompat-v7:28.0.0"
+            force "com.android.support:support-v4:28.0.0"
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    dependencies {
+        compile('com.amazonaws:aws-android-sdk-mobile-client:2.6.7@aar') { transitive = true }
+    }
+
+    implementation 'com.amazonaws:aws-android-sdk-pinpoint:2.6.+'
+    compile('com.amazonaws:aws-android-sdk-auth-core:2.6.+@aar') { transitive = true }
+
+    implementation group: 'commons-io', name: 'commons-io', version: '2.5'
+
+    //   compile 'com.facebook.fresco:fresco:0.10.0'
+    compile project(':lib_ImageGallery')
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    implementation 'com.astuetz:pagerslidingtabstrip:1.0.1'
+    //compile 'com.google.android.gms:play-services-gcm:9.0.1'
+
+    implementation 'com.github.gcacace:signature-pad:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    /* compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+     compile 'com.android.support:animated-vector-drawable:26.0.0-alpha1'*/
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'org.jsoup:jsoup:1.10.3'
+    testCompile 'junit:junit:4.12'
+    implementation 'com.algolia:algoliasearch-android:3.+'
+
+    //retrofit 2 dependencies
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.jakewharton.timber:timber:4.5.1'
+    implementation 'com.iarcuschin:simpleratingbar:0.1.5'
+    //-------------------------------------
+    implementation 'androidx.multidex:multidex:2.0.0'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'com.romainpiel.shimmer:library:1.4.0@aar'
+
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    /* implementation 'com.google.android.gms:play-services-iid:16.0.0'
+    implementation 'com.google.android.gms:play-services-gcm:16.0.0'*/
+    //implementation 'com.google.android.gms:play-services-places:16.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-iid:16.0.1'
+    implementation 'com.google.android.gms:play-services-gcm:16.1.0'
+    //implementation 'com.google.android.gms:play-services:12.0.1'
+    //Deep Linking
+    //compile 'com.google.firebase:firebase-invites:15.0.0'
+
+    //implementation 'com.google.firebase:firebase-dynamic-links:15.0.0'
+//    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.8'
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.google.maps.android:android-maps-utils:2.2.0'
+
+
+    //facebook
+    implementation "com.facebook.android:facebook-android-sdk:5.11.0"
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    // Add the Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:17.3.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+
+
+    //Paytabs
+    implementation project(':paytabs_sdk-v4.0.1')
+    implementation 'com.github.dbachelder:CreditCardEntry:1.4.9'
+}
+apply plugin: 'com.google.gms.google-services'

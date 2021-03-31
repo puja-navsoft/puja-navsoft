@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddressSelectionActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAddressHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_addresses"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/tvAddAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_new_address"
+                android:textAllCaps="true"
+                android:textStyle="normal"
+                android:textSize="13sp"
+                android:padding="15dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ListView
+        android:id="@+id/lvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardAddressHeader"
+        android:dividerHeight="8dp"
+        android:paddingBottom="10dp"
+        android:divider="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/tvNoAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_no_saved_address"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_white_36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

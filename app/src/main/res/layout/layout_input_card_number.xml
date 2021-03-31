@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_card"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:textSize="18sp"/>
+
+    <EditText android:id="@+id/etCardNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_no"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:inputType="number" />
+
+</LinearLayout>

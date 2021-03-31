@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.afieat.ini.MainActivity">
+
+    <TextView
+        android:id="@+id/tvNoRestaurants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/msg_no_restaurants"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRestaurants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navView"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <ListView
+                android:id="@+id/lvNav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.navigation.NavigationView>
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/sortView"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end">
+
+            <include
+                android:id="@+id/viewFilter"
+                layout="@layout/layout_filter_menu" />
+        </com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

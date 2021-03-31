@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.afieat.ini">
+
+    <uses-sdk tools:overrideLibrary="pl.droidsonroids.gif" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <!--
+        <permission
+        android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE" /> -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE"/> -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/> -->
+    <!-- <uses-permission android:name="android.permission.RECEIVE_SMS"/> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_SMS"/> -->
+    <uses-permission
+        android:name="com.mysampleapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AddressFromMapActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity android:name=".DeliveryPointActivity"
+            android:windowSoftInputMode="adjustPan"/> <!-- <receiver android:name=".services.OtpReceiver"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.provider.Telephony.SMS_RECEIVED"/> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <activity android:name=".PhoneOtpScreen" />
+        <activity android:name=".PhoneRegistration" />
+        <activity
+            android:name=".PhoneActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <!--
+<meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDzVJ_z7IQf9zpZQmVJm7Hq8GMAiMoe-vc"/>
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <!--
+ <activity
+             android:name=".MapsActivity"
+             android:label="@string/title_activity_maps">
+         </activity>
+        -->
+        <!--
+        <receiver
+            android:name="com.amazonaws.mobileconnectors.pinpoint.targeting.notification.PinpointNotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.amazonaws.intent.fcm.NOTIFICATION_OPEN" />
+            </intent-filter>
+        </receiver>
+        -->
+        <!--
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.github.hathibelagal.pn" />
+            </intent-filter>
+        </receiver
+        -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.mysampleapp" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Fullscreen"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LocationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.TransparentStatusbar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CheckInActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".SignUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="afieat.com"
+                    android:scheme="http" />
+                <data
+                    android:host="afieat.com"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".RestaurantsDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBarRestaurantsDetailActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".FoodAddBasketActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".BasketActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PaymentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AddressSelectionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PaymentSuccessActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AddressAddActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!--
+ <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        -->
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="00db1cf1d64cab06ca7932ab2e65b94dc55f56a2" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".WalletActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ReviewsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".OrdersActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".RestaurantListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ViewOnlineSearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CategoryListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LanguageSelectionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".OrderDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CardPaymentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".BasketActivity2"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".NotificationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".HelpCenterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ChatCenterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service android:name=".services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TrackYourOrderActivity" />
+        <activity
+            android:name=".DealsActivity"
+            android:label="@string/title_activity_deals"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CustomerReviewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".FullScreenImageDisplay"
+            android:screenOrientation="portrait"
+            android:theme="@style/ImageScreeTheme" />
+        <activity
+            android:name=".ProductDetailedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailActivityClick_Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LocationDrawerActivityNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VoucherActivity"
+            android:screenOrientation="portrait">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.afieat.com"
+                    android:scheme="http" />
+                <data
+                    android:host="www.afieat.com"
+                    android:scheme="https" />
+            </intent-filter>
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <category android:name="android.intent.category.BROWSABLE"></category>
+
+                &lt;!&ndash;http://www.com.afieat.ini/voucher.&ndash;&gt;
+                <data
+                    android:host="/ymnf9.app.goo.gl/"
+                    android:scheme="https"></data>
+                <data
+                    android:host="/ymnf9.app.goo.gl/"
+                    android:scheme="http"></data>
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".AboutusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VoucherDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FavouriteListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyPoints"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReviewActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
