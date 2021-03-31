@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/flash_viewPager"
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_below="@+id/flash_viewPager"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"/>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/crazy_deals_list"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal"-->
+        <!--app:layoutManager="android.support.v7.widget.LinearLayoutManager" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/view_pager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="300dp">-->
+
+        <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/flash_viewPager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"/>-->
+    <!--</RelativeLayout>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_below="@+id/view_pager">-->
+
+        <!--<RadioGroup-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:id="@+id/radio_container"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--/>-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/header_vpager_first"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/pager_indicator_fill" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/header_vpager_second"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginLeft="6dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@drawable/pager_indicator_empty" />&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

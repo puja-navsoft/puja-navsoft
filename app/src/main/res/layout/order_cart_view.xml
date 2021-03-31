@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v7.widget.CardView
+    android:layout_gravity="bottom"
+    android:id="@+id/card_view"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardElevation="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >-->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/tools">
+
+
+<LinearLayout
+    android:layout_gravity="center|bottom"
+    android:padding="2dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imgRest"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/greyXXLight"/>
+<!--
+            <ImageView
+                android:background="@color/greyXXLight"
+                android:id="@+id/imgRest"
+                android:scaleType="centerCrop"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                />-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/restaurantName"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="Restaurant Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/txtCartMsg"
+                android:layout_marginTop="2dp"
+                android:textSize="12sp"
+                android:text="@string/cart_save_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:focusable="true"
+                android:id="@+id/txtViewCart"
+                android:padding="4dp"
+                android:clickable="true"
+                android:textColor="@color/greenButton"
+                android:gravity="center|top"
+                android:text="@string/view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:padding="1dp"
+
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+                android:layout_marginRight="4dp"
+                android:layout_marginEnd="4dp"
+                android:id="@+id/imgDelete"
+                app:fabCustomSize="24dp"
+                app:backgroundTint="@color/white"
+                android:src="@drawable/ic_cancel"
+                app:elevation="2dp"
+                android:layout_gravity="end|center|top"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fabSize="mini"
+                fab:ignore="VectorDrawableCompat"/>
+
+
+                <!--<android.support.v7.widget.AppCompatImageView
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:focusable="true"
+                    android:id="@+id/imgDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:clickable="true"
+                    android:src="@drawable/ic_imgdelete"
+                    />-->
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    </FrameLayout>
+<!--
+</android.support.v7.widget.CardView>-->

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/llPlate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/rect_bg_primarycolor_deep"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/tvPlate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/sample_text"
+            android:textColor="@color/colorPrimary" />
+        <RelativeLayout
+            android:id="@+id/relPrice"
+            android:layout_marginLeft="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:id="@+id/tvActualPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp" />
+            <View
+                android:id="@+id/viewCutPrice"
+                android:background="@color/colorPrimary"
+                android:layout_centerInParent="true"
+                android:layout_alignLeft="@+id/tvActualPrice"
+                android:layout_alignRight="@+id/tvActualPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_number"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</FrameLayout>
+
+

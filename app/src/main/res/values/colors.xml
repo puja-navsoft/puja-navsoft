@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C63A2B</color>
+    <color name="duplicate">#C63A3B</color>
+    <color name="colorPrimaryDark">#9D3124</color>
+    <!--<color name="colorAccent">#FF5722</color>-->
+    <color name="colorAccent">#00B378</color>
+    <color name="black">#000000</color>
+    <color name="bg_page">#fff3f3f3</color>
+    <color name="greyLight">#CCCCCC</color>
+    <color name="light_green">#D0EDD1</color>
+    <color name="greyXLight">#DDDDDD</color>
+    <color name="greyXXLight">#EEEEEE</color>
+    <color name="greyDark">#555555</color>
+    <color name="greyXDark">#444444</color>
+    <color name="greyXXDark">#333333</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="greenButton">#00B378</color>
+    <color name="orangeButton">#F15928</color>
+    <color name="blue">#0489B1</color>
+    <color name="yellowRating">#E0BC17</color>
+    <color name="trans_greyDark">#99555555</color>
+    <color name="trans_greyXDark">#CC555555</color>
+    <color name="trans_greyXXDark">#EE555555</color>
+    <color name="trans_greyLight">#44555555</color>
+    <color name="translucent">#ebffffff</color>
+    <color name="zomato_list_divider_color">#edf1f4</color>
+    <color name="full_rating_5">#315e04</color>
+    <color name="grey_header">#F0F0F0</color>
+    <color name="polyline_blue">#3DACF7</color>
+    <color name="dark_mask">#83333232</color>
+    
+</resources>

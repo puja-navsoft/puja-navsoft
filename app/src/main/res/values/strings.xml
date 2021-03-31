@@ -1,0 +1,398 @@
+<resources>
+    <string name="app_name">Afieat</string>
+    <string name="currency">IQD&#160;</string>
+    <string name="currency_us">USD&#160;</string>
+
+    <!-- page titles -->
+    <string name="title_address">Address</string>
+    <string name="title_add_address">Add Address</string>
+    <string name="title_update_address">Update Address</string>
+    <string name="title_check_in">Log In or Register</string>
+    <string name="title_log_in">Log In</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="title_create_account">Create Account</string>
+    <string name="title_update_profile">Update Profile</string>
+    <string name="title_my_orders">My Orders</string>
+    <string name="title_my_voucher">My Vouchers</string>
+    <string name="title_my_voucher_detail">My Vouchers Detail</string>
+    <string name="title_order_details">Order Details</string>
+    <string name="title_menus">Menus</string>
+    <string name="title_basket">Basket</string>
+    <string name="title_my_wallet">My Wallet</string>
+    <string name="title_my_deals">My Deals</string>
+    <string name="title_update_password">Update Password</string>
+    <string name="title_my_reviews">My Reviews</string>
+    <string name="title_delivery_payment">Delivery &amp; Payment</string>
+    <string name="title_card_payment">Card Payment</string>
+    <string name="title_success">Success</string>
+    <string name="title_notification">Notifications</string>
+    <string name="title_help_center">Help Center</string>
+
+
+    <string name="facebook_app_id" translatable="false">2190286324531964</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2190286324531964</string>
+
+
+    <!-- menu and nav-menu entries -->
+    <string name="menu_search">Search</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_update">Update</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_default">Make Default</string>
+
+    <!-- negative messages -->
+    <string name="msg_email_invalid">Invalid email address</string>
+    <string name="msg_field_mandatory">This field is required</string>
+    <string name="mobile_msg_field_mandatory">Please enter valid mobile number</string>
+    <string name="msg_no_internet">Network unavailable</string>
+    <string name="msg_operation_not_completed">Operation could not be completed</string>
+    <string name="msg_email_exists">Email Id already exists</string>
+    <string name="msg_login_fail">Invalid email address or password.</string>
+    <string name="msg_email_sending_fail">Invalid email address.</string>
+    <string name="msg_phone_sending_fail">Invalid Phone Number.</string>
+    <string name="msg_password_matched">New Password should be different.</string>
+    <string name="msg_confirm_password_matched">Confirm Password should be same as new password.</string>
+    <string name="msg_password_not_matched">Password not matched.</string>
+    <string name="msg_reseting_failed">Reseting password failed</string>
+    <string name="msg_server_no_response">No response from server</string>
+    <string name="msg_no_regions">No regions available for this city.</string>
+    <string name="msg_not_deliverable">Order cannot be delivered in this region.</string>
+    <string name="msg_no_restaurants">Sorry! No restaurants available.</string>
+    <string name="msg_no_food">Sorry!\n\nNo food items available for this restaurant.</string>
+    <string name="msg_pending_order">You already have a pending order from another restaurant. Are you sure to refresh your order basket?</string>
+    <string name="msg_no_saved_address">No saved address</string>
+    <string name="msg_select_city">Please select a city</string>
+    <string name="msg_add_address">Please set GPS location</string>
+    <string name="msg_enter_name">Please enter a name</string>
+    <string name="msg_enter_father_name">Please enter father\'s name</string>
+    <string name="msg_enter_family_name">Please enter family name</string>
+    <string name="msg_enter_phone">Please enter a phone number</string>
+    <string name="msg_enter_description">Please enter a description</string>
+    <string name="msg_select_region">Please select a region</string>
+    <string name="msg_no_card">You have no saved cards</string>
+    <string name="msg_no_reviews">You have no reviews yet</string>
+    <string name="msg_please_login">Please log in to complete this action</string>
+    <string name="msg_restaurant_closed">Restaurant is closed at your selected time</string>
+    <string name="msg_invalid_promo">Invalid Promo Code</string>
+    <string name="msg_promo_not_applicable">Promo not applicable for current items</string>
+    <string name="msg_login_promo">You have to be logged in to avail promo</string>
+    <string name="msg_not_enough_wallet_balance">Not enough balance in Wallet</string>
+    <string name="msg_no_token">Device not identified. Please relaunch the application.</string>
+    <string name="promo_error_2">Already redemed voucher.</string>
+    <string name="promo_error_3">Invalid voucher.</string>
+    <string name="promo_error_4">Invalid parameters.</string>
+
+    <!-- positive messages -->
+    <string name="msg_account_created">Account created</string>
+    <string name="msg_password_min_6_chars">6 characters minimum</string>
+    <string name="msg_please_wait">Please wait</string>
+    <string name="msg_placing_order">Placing order</string>
+    <string name="msg_creating_account">Creating Account</string>
+    <string name="msg_logging_in">Logging in</string>
+    <string name="msg_email_sending">Sending email</string>
+    <string name="msg_reseting_password">Reseting Password</string>
+    <string name="msg_activate_from_link">Activation pending. Please check the link in the email.</string>
+    <string name="msg_login_success">Logged in successfully</string>
+    <string name="msg_code_send_success">Code sent successfully</string>
+    <string name="msg_reset_password_success">Password Reset successfully.</string>
+    <string name="msg_logout_success">Logged out</string>
+    <string name="msg_fetching_restaurants">Fetching Restaurants</string>
+    <string name="msg_food_added_basket">Item added to basket!</string>
+    <string name="msg_order_placed_success">Order successfully placed!</string>
+    <string name="msg_processing">Processing</string>
+    <string name="msg_sure_delete_address">Sure to delete this address?</string>
+    <string name="msg_address_added">Address added successfully</string>
+    <string name="msg_address_updated">Address updated successfully</string>
+    <string name="msg_valid_promo">Promo applied</string>
+    <string name="msg_turn_on_location">Please turn on your location services and retry</string>
+
+    <!--Snackbar buttons-->
+    <string name="snack_retry">RETRY</string>
+
+    <!--Imageview ContentDescription-->
+    <string name="img_discount">Discount</string>
+    <string name="img_clear">Clear</string>
+    <string name="img_right_arow">Right Arrow</string>
+
+    <!--general strings-->
+    <string name="arabic">العربية</string>
+    <string name="english">English</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="reviews">&#160;Reviews</string>
+    <string name="set_your_location">Set your location</string>
+    <string name="choose_language">Choose your language</string>
+    <string name="location">Location</string>
+    <string name="at">&#160;at&#160;</string>
+    <string name="free">Free</string>
+    <string name="address_locality">Address by GPS</string>
+    <string name="address2">Description Address</string>
+    <string name="nickname_home">Nickname e.g, home</string>
+    <string name="apply">Apply</string>
+    <string name="min_delivery">&#160;min delivery</string>
+    <string name="lo_2_hi">Low to high</string>
+    <string name="hi_2_lo">High to low</string>
+    <string name="popularity">Popularity</string>
+    <string name="ratings">Ratings</string>
+    <string name="delivery_instructions">Landmark e.g, opposite New Eden Mall</string>
+    <string name="city">City</string>
+    <string name="region">Region</string>
+    <string name="to">to</string>
+    <string name="show_restaurants">Show Restaurants</string>
+    <string name="all_restaurants">All Restaurants</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="connect_with_shopini">Connect with Shopini</string>
+    <string name="or_use_email">or use email address</string>
+    <string name="log_in">Log In</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password_continue">Continue</string>
+    <string name="dont_have_account">You don\'t have an account?</string>
+    <string name="in_process">In Process</string>
+    <string name="on_the_way">On The Way</string>
+    <string name="in_the_way">In The Way</string>
+    <string name="delivered">Delivered</string>
+    <string name="cancelled_by_admin">Cancelled by Admin</string>
+    <string name="create_account">Create Your Account</string>
+    <string name="email">Mobile no</string>
+    <string name="code">Code</string>
+    <string name="password">Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="name">Name</string>
+    <string name="your_name">Your Name</string>
+    <string name="fathers_name">Father\'s Name(Optional)</string>
+    <string name="family_name">Family Name</string>
+    <string name="gender">Gender</string>
+    <string name="get_your_current_location">Click here to get a GPS location</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="change_password"><u>Change password</u></string>
+    <string name="sample_text">Sample Text</string>
+    <string name="sample_text_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="sample_text_huge">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</string>
+    <string name="sample_name">John Doe</string>
+    <string name="sample_number">0</string>
+    <string name="sample_date">November 15, 2015</string>
+    <string name="select_city">Choose Your City</string>
+    <string name="select_region">Choose Your Area</string>
+    <string name="status">Status : </string>
+    <string name="opening_hours">Opening hours:</string>
+    <string name="opening_time">Opening time</string>
+    <string name="minimum_order">Minimum Order</string>
+    <string name="delivery_date">Delivery date</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="price">Price</string>
+    <string name="delivers_in">delivery</string>
+    <string name="delivered_by">Delivered by:</string>
+    <string name="item_price">Item Price</string>
+    <string name="size">Size</string>
+    <string name="select_add_ons">Select Add-ons</string>
+    <string name="select_ingredients">Select Ingredients</string>
+    <string name="quantity">Quantity</string>
+    <string name="total">Total</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="discount">Discount</string>
+    <string name="restaurant_discount">Restaurant discount</string>
+    <string name="promo">Promo</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="del_charge">Delivery Charge</string>
+    <string name="total_price">Total Price</string>
+    <string name="total_qty">Total Qty</string>
+    <string name="delivery_details">Delivery Details</string>
+    <string name="track_driver_status">Track Driver Status</string>
+    <string name="promo_code_if_available">Promo Code (if available)</string>
+    <string name="apply_promo">Apply</string>
+    <string name="add_to_basket">Add To Basket</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="show_more">Show More</string>
+    <string name="more">more</string>
+    <string name="photos">Photos</string>
+    <string name="your_order">Your Order</string>
+    <string name="edit_order">Edit Order</string>
+    <string name="add_item">Add Item</string>
+    <string name="comment">Comment</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="net_payable">Total cost</string>
+    <string name="select_payment_mode">Select Payment Mode</string>
+    <string name="change">Change</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="prepaid_card">Prepaid Card</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="paypal">Paypal</string>
+    <string name="order_now">Order Now</string>
+    <string name="_continue">Continue</string>
+    <string name="highlights">Highlights</string>
+    <string name="recommended_dishes">Recommended Dishes</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="rated">RATED</string>
+    <string name="iraq">IRAQ</string>
+    <string name="tap_to_select_city">Tap to select City</string>
+    <string name="my_addresses">My Addresses</string>
+    <string name="add_new_address">+ Add new Address</string>
+    <string name="add_new_card">+ Add new Card</string>
+    <string name="wallet_balance">Wallet Balance:&#160;</string>
+    <string name="_default">Default</string>
+    <string name="recharge_date">Recharge Date</string>
+    <string name="card_no">Card No.</string>
+    <string name="balance">Balance</string>
+    <string name="write_your_review">Write a review</string>
+    <string name="submit">Submit</string>
+    <string name="order_number">Order No.</string>
+    <string name="date">Date</string>
+    <string name="skip_login">Skip Login ></string>
+    <string name="total_amount">Total Amt</string>
+    <string name="OR">OR</string>
+    <string name="staticTextForgotPassword">Please provide the phone no you have used
+        to register with Afieat. We will send you a sms containing a code, which you can use to generate your new password</string>
+
+    <string-array name="sort_menu">
+        <item>Popularity</item>
+        <item>Rating</item>
+        <!--<item>Distance</item>-->
+    </string-array>
+
+    <string name="filter_offer">Offers</string>
+    <string name="filter_new_restaurant">New Restaurant</string>
+    <string name="filter_rating">Ratings</string>
+    <string name="filter_open_restaurant">Open Restaurants</string>
+    <string name="filter_veg">Pure Veg</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_track_your_btn">Map</string>
+    <string name="title_activity_deals">DealsActivity</string>
+    <string name="_submit">Submit</string>
+    <string name="share">Share</string>
+    <string name="min_procesing">min \nprocessing</string>
+    <string name="min_procesing_2">min processing</string>
+    <string name="min_order_alert">Sorry, this restaurant does not accept delivery order below</string>
+    <string name="Resturants">Resturants</string>
+
+    <!-- String for force  Update from  PlayStore-->
+    <string name="select_later_time_to_connect_order">Now</string>
+    <string name="youAreNotUpdatedTitle">Update Available</string>
+    <string name="youAreNotUpdatedMessage">A new version of Afieat is available. Please update to version now</string>
+    <string name="update">Update</string>
+    <string name="skip">Skip</string>
+    <string name="confirmpassorwdarenotmatching">Confirm password are mismatch with password</string>
+    <string name="ok">OK</string>
+    <string name="email_mobile">Email / Mobile No.</string>
+    <string name="msg_email_sms">Sending SMS</string>
+    <string name="not_recivied">Not Recieved</string>
+
+    <string name="view_cart">View Cart ></string>
+    <string name="View_online_order_menu">View online order menu  ></string>
+    <string name="auto_applies_during_checkout">auto applies during checkout</string>
+    <string name="OPENING_HOURS">OPENING HOURS</string>
+    <string name="add_favorite">Add Favorite</string>
+    <string name="add_reviews">Add Reviews</string>
+    <string name="add_photos">Photos</string>
+    <string name="about_us">About us</string>
+    <string name="about_us_des">Afieat site belonging  to the virtual world company, which was founded in 2016, and is registered in the Ministry of Commerce, department of companies registration in Iraq, according to the decision No. (a-02-1107) documented in date (03.08.2015), which is part of a group of companies of Fusteka that  founded in 2003, which includes several companies: Fusteka food Industries company , Fusteka ice cream production and desserts, Jekor food factories for Frozen products , Alameri  Contracting company , and Fusteka  General Trading ... and others ..
+
+A food delivery service is available to all restaurants  available in the provincial and centers .. This service is available on the website and  Android , app Store applications .
+\n
+        \nAfieat site number  :  07722228456  07822228456
+\nEmail : info@Afieat.com
+\nOffice  Address : New Mishraq - Basra - Iraq.
+Baghdad :  ALYarmouk
+</string>
+    <string name="try_again">Try Again</string>
+    <string name="reference_order_number">Reference No : </string>
+    <string name="weighted_reviews_based_on_users.">weighted average based on users.</string>
+    <string name="or">OR</string>
+
+    <string name="voucher_discount">Discount : </string>
+    <string name="expiry">Expiry : </string>
+
+    <string name="redeem">Reedem</string>
+
+    <string name="list_rating">Rating</string>
+    <string name="list_delivery_time">Delivery Time</string>
+    <string name="list_processing_time">Processing Time</string>
+    <string name="list_minimum_order">Minimum Order</string>
+    <string name="navItems"></string>
+
+
+    <string name="add">ADD</string>
+    <string name="remove">Remove</string>
+    <string name="no_favourite">No Favourites !</string>
+    <string name="no_voucher">No Vouchers !</string>
+    <string name="noRestaurantDetailMsg">No restaurant details available..</string>
+    <string name="voucher_msg">You have received a voucher from your friend Click on the link and add the coupon to your account and go to the restaurant will get a direct discount from the restaurant when you buy from inside the restaurant.</string>
+    <string name="please_select_any_one">Please choose variation</string>
+    <string name="my_points_title">My Points</string>
+    <string name="total_referral"> Total Referral</string>
+    <string name="reward_points"> Reward Points</string>
+    <string name="your_referral_code"> Your Referral Code : </string>
+    <string name="your_membership"> Your Membership : </string>
+    <string name="referred_friends"> Referred Friends</string>
+    <string name="point_products"> Point Products</string>
+    <string name="amounts"> Amount : </string>
+    <string name="points"> Points : </string>
+    <string name="order_no"> Order No : </string>
+    <string name="loyalty_points">Loyalty Points </string>
+    <string name="redeem_points">Redeem Points : </string>
+    <string name="search_hint">Search your dish here..</string>
+    <string name="please_select_size_first">Please select size first.</string>
+    <string name="free_delivery">Free Delivery</string>
+    <string name="iqd">IQD</string>
+    <string name="referal_code_applied">Referral Code Applied</string>
+    <string name="menu">MENU</string>
+    <string name="Phone">Phone :</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="cart_save_item">You have item saved in your cart</string>
+    <string name="view">View</string>
+    <string name="txtCurrentStatus">Your order is</string>
+    <string name="call">CALL</string>
+    <string name="txtInProcess">in Process</string>
+    <string name="txtIntheway">On the way</string>
+    <string name="cart_txt_item">You have item </string>
+    <string name="orderProcess">you have order in processing</string>
+    <string name="orderonway"> you have order in the way</string>
+    <string name="all_cat_items"> All Items</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+    <string name="enter_the_otp_received">Enter the OTP received</string>
+    <string name="verify_otp">Verify Otp</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="register">Register</string>
+    <string name="resend_after">Resend after </string>
+    <string name="Seconds"> Seconds</string>
+    <string name="Please_wait_for">Please wait for </string>
+    <string name="to_go_back"> to go back</string>
+    <string name="input_address_of_your_delivery_point">Select address of your drop off point</string>
+    <string name="input_address_from_where_you_want_to_deliver">Select address of your pick up point</string>
+    <string name="delivery_from">Delivery From</string>
+    <string name="delivery_to">Delivery To</string>
+    <string name="mention_the_type_of_package_to_be_delivered">Mention the type of package to be delivered</string>
+    <string name="note_for_driver">Note for Driver</string>
+    <string name="add_notes_for_the_driver">Add notes for the driver.</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="butler_service">Driver order Service</string>
+    <string name="proceed_to_save">Proceed to save</string>
+    <string name="delivery_type">Delivery Type</string>
+    <string name="order_amount">Order Amount</string>
+    <string name="mention_the_order_amount">Mention the order amount</string>
+    <string name="order_price">Order Price</string>
+    <string name="mention_the_delivery_type">Mention the delivery Type</string>
+    <string name="order_charge">Order Charge</string>
+    <string name="in">\"In \"</string>
+    <string name="your_order_will_reach_in">Your order will reach in:</string>
+    <!--    <string name="google_maps_key">AIzaSyBT96EaXbz-oaPwKtflCmlg0UTTwAByps4</string>-->
+
+</resources>

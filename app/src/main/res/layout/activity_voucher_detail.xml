@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.afieat.ini.VoucherDetailActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_30"
+            android:layout_marginLeft="@dimen/margin_30"
+            android:layout_marginRight="@dimen/margin_30"
+            android:layout_marginTop="@dimen/margin_20"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/barCodeImg"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_20"
+                android:background="@drawable/corner_border"
+                android:padding="@dimen/margin_2" />
+
+            <TextView
+                android:id="@+id/Title"
+                style="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="HJBJBWDKB" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:text="@string/reference_order_number"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/greyDark" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:text="@string/status"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/greyDark" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:text="@string/voucher_discount"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/greyDark" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:text="@string/expiry"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/greyDark" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/voucherRefOrderNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:text="565656464"
+                        android:textColor="#2196f3" />
+
+                    <TextView
+                        android:id="@+id/voucherStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:text="Active" />
+
+                    <TextView
+                        android:id="@+id/voucherDiscountAmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:text="" />
+
+
+                    <TextView
+                        android:id="@+id/voucherExpiry"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:text="" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shareVoucher"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_weight="0"
+                android:background="@drawable/ic_share"
+                android:paddingBottom="@dimen/margin_10"
+                android:paddingTop="@dimen/margin_10"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tvReedembtn"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_10"
+                android:layout_weight="0"
+                android:background="@color/greenButton"
+                android:paddingBottom="@dimen/margin_10"
+                android:paddingTop="@dimen/margin_10"
+                android:text="@string/redeem"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

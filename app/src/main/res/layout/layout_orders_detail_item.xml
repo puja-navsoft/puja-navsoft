@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/tvProdName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coca Cola"/>
+
+        <TextView
+            android:id="@+id/tvProdQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/tvProdPrice"
+            android:layout_toStartOf="@+id/tvProdPrice"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/tvProdPrice"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="50.00"
+            android:gravity="end"
+            android:layout_centerInParent="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/greyXLight"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

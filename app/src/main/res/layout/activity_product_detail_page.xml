@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filterParentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/topViewRel"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:background="@color/cardview_light_background">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/dummy_to_delete" />
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:paddingLeft="@dimen/margin_10"
+                android:paddingTop="5dp"
+                android:paddingRight="@dimen/margin_10"
+                android:paddingBottom="5dp"
+                android:text="4.5"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/transparent">
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/arrow_right"
+                        android:backgroundTint="@color/white"
+                        android:rotation="180" />
+
+                    <TextView
+                        android:id="@+id/num_of_reviews"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:layout_toLeftOf="@+id/num_of_pic"
+                        android:background="@color/white"
+                        android:padding="5dp"
+                        android:text="1020 Photos >" />
+
+                    <TextView
+                        android:id="@+id/num_of_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:background="@color/white"
+                        android:padding="5dp"
+                        android:text="1020 Photos >" />
+
+
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/topViewRel">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/topViewRel"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="@dimen/margin_10">
+
+                        <TextView
+                            android:id="@+id/restaurantName"
+                            style="@style/Base.TextAppearance.AppCompat.Medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="Restaurant Name"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/restaurantLocation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantName"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="restaurent location" />
+
+                        <TextView
+                            android:id="@+id/restaurantSpeciality"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantLocation"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="restaurent speciality" />
+
+                        <TextView
+                            android:id="@+id/restaurantReviews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantSpeciality"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="restaurent reviewa" />
+
+                        <View
+                            android:id="@+id/view1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_1"
+                            android:layout_below="@+id/restaurantReviews"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:background="@color/greyLight" />
+
+                        <TextView
+                            android:id="@+id/restaurantStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:text="open now : 10:20 am to 10:20 pm(wednesday)" />
+
+                        <TextView
+                            android:id="@+id/restaurantDeliveryCharge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantStatus"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:background="@color/greyLight"
+                            android:gravity="center"
+                            android:padding="@dimen/margin_5"
+                            android:text="Delivery Charge"
+                            android:textColor="@color/colorPrimary" />
+
+                        <LinearLayout
+                            android:id="@+id/linearLayoutBelowDeliveryCharge"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/restaurantDeliveryCharge"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+
+                                android:text="MINIMUM ORDER
+IQD 500"
+                                android:textAlignment="center"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="PROCESSING TIME
+20 min"
+                                android:textAlignment="center"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_weight="1"
+                                android:text="DELIVERY TIME
+30 min"
+                                android:textAlignment="center"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_1"
+                            android:layout_below="@+id/linearLayoutBelowDeliveryCharge"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:background="@color/greyLight" />
+
+
+                        <LinearLayout
+
+                            android:id="@+id/linearLayoutBelowAction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view2"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/bookmark_button"
+
+                                android:text="bookmark"
+                                android:textAlignment="center"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/add_review_button"
+                                android:text="add reviews"
+                                android:textAlignment="center"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_weight="1"
+                                android:drawableTop="@drawable/add_photo_button"
+                                android:text="add photos"
+                                android:textAlignment="center"
+                                android:textSize="10sp" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cv1"
+                    android:layout_marginTop="@dimen/margin_15">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/discountoffText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/margin_20"
+                            android:paddingBottom="@dimen/margin_20"
+                            android:text="20% off on your first order
+auto appies during checkout" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/discountoff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/greenButton"
+                        android:elevation="@dimen/margin_15"
+                        android:paddingLeft="@dimen/margin_10"
+                        android:paddingTop="@dimen/margin_5"
+                        android:paddingRight="@dimen/margin_10"
+                        android:paddingBottom="@dimen/margin_5"
+                        android:text="20% off"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/openingHours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLay1"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="OPENING HOURS"
+                    android:textColor="@color/black"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/llOpeningTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/openingHours"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/bg_page"
+                        android:padding="10dp"
+                        android:text="@string/opening_time"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/round_edge_rect_green"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:padding="@dimen/margin_10"
+            android:text="View online order menu >"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greyLight"
+    tools:context="com.afieat.ini.SignUpActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+
+    <ScrollView
+        android:windowSoftInputMode="adjustPan"
+        android:background="#EDEDED"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar">
+
+        <LinearLayout
+            android:windowSoftInputMode="adjustPan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="120dp"
+                android:layout_below="@+id/appbar"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/afieat_logo" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="@dimen/margin_100"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/new_white_bg"
+                android:gravity="center"
+                android:hint="@string/name"
+                android:imeOptions="actionNext"
+                android:inputType="textCapWords" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tetFathersName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:imeOptions="actionNext"
+                android:gravity="center"
+                android:layout_marginEnd="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/new_white_bg"
+                android:hint="@string/fathers_name"
+                android:inputType="textCapWords" />
+
+            <!--Sunit 25-01-2017-->
+            <!--<Spinner-->
+            <!--android:id="@+id/spCity"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="15dp"-->
+            <!--android:layout_marginStart="15dp"-->
+            <!--android:background="@drawable/rect_bg_green"-->
+            <!--android:layout_marginTop="15dp"/>-->
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tetGrandfathersName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                android:hint="@string/family_name"
+                android:inputType="textCapWords"
+                android:visibility="gone" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/spCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/new_white_bg"
+                android:focusable="false"
+                android:imeOptions="actionNext"
+                android:gravity="center"
+                android:hint="@string/select_city"
+                app:errorEnabled="true"
+                app:errorTextAppearance="@color/colorPrimaryDark" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tetEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="25dp"
+                android:imeOptions="actionNext"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/new_white_bg"
+                android:gravity="center"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/new_white_bg"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:id="@+id/tetIsd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="0.2"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:text="+964" />
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetMobile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:imeOptions="actionNext"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="0.8"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:hint="7722228456"
+                    android:inputType="phone" />
+
+            </LinearLayout>
+
+         <!--   <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                app:hintAnimationEnabled="true"
+                app:passwordToggleEnabled="true"-->>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetPassword"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginStart="25dp"
+                    android:imeOptions="actionNext"
+
+                    android:drawableEnd="@drawable/ic_visibility_black_18dp"
+                    android:drawableRight="@drawable/ic_visibility_black_18dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/new_white_bg"
+                    android:hint="@string/password"
+                    android:inputType="textPassword" />
+         <!--   </android.support.design.widget.TextInputLayout>-->
+
+          <!--  <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                app:hintAnimationEnabled="true"
+                app:passwordToggleEnabled="true">-->
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetconfirmPassword"
+                    android:imeOptions="actionNext"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginStart="25dp"
+                    android:gravity="center"
+                    android:drawableEnd="@drawable/ic_visibility_black_18dp"
+                    android:drawableRight="@drawable/ic_visibility_black_18dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/new_white_bg"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword" />
+          <!--  </android.support.design.widget.TextInputLayout>
+-->
+            <Button
+                android:id="@+id/btnSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:imeOptions="actionDone"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/new_red_btn_bg"
+                android:text="@string/create_account"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

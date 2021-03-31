@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/duplicate">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/Base.TextAppearance.AppCompat.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Choose Your City"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <ImageView
+                    android:id="@+id/searchImg"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_search_white_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_16" />
+
+            </RelativeLayout>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:focusable="true"
+        android:layout_margin="@dimen/margin_5"
+        android:background="@drawable/new_black_border_transparent_bg"
+        android:layout_below="@id/appBarLayout"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/stateRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchEditText"
+        android:paddingTop="@dimen/margin_5" />
+
+    <FrameLayout
+        android:id="@+id/afieatLoaderFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#16000000">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/dialogLoader"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/afieat_small" />
+    </FrameLayout>
+
+
+</RelativeLayout>

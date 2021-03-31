@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/afieatandroid-master.iml" filepath="$PROJECT_DIR$/.idea/modules/afieatandroid-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/afieatandroid-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/afieatandroid-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib_ImageGallery/afieatandroid-master.lib_ImageGallery.iml" filepath="$PROJECT_DIR$/.idea/modules/lib_ImageGallery/afieatandroid-master.lib_ImageGallery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paytabs_sdk-v4.0.1/afieatandroid-master.paytabs_sdk-v4.0.1.iml" filepath="$PROJECT_DIR$/.idea/modules/paytabs_sdk-v4.0.1/afieatandroid-master.paytabs_sdk-v4.0.1.iml" />
+    </modules>
+  </component>
+</project>

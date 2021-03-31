@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    tools:context="com.afieat.ini.LoginActivity">
+
+    <ImageView
+        android:elevation="0dp"
+        android:id="@+id/imagebg"
+        android:background="@drawable/plates_login_bg"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"/>
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLAy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/ic_keyboard_arrow_left_white_48dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/fakeViewback"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:background="@color/transparent" />
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagebg">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/title"
+                android:text="@string/about_us"
+                android:textColor="@color/black"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+<TextView
+    android:layout_below="@+id/title"
+    android:layout_margin="20dp"
+    android:textAlignment="textStart"
+    style="@style/Base.TextAppearance.AppCompat.Medium"
+    android:textColor="@color/black"
+    android:id="@+id/about_us"
+    android:text="@string/about_us_des"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

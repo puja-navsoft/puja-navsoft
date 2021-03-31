@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="0dp"
+    android:paddingEnd="0dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="0dp"
+    android:paddingStart="15dp"
+    android:paddingTop="0dp">
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbAddOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_text" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/sample_number"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/cbAddOn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/greyXLight"/>-->
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afieat.ini.SplashActivity">
+
+    <!--   <pl.droidsonroids.gif.GifImageView
+           android:id="@+id/loader"
+           android:src="@drawable/afieat_"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+
+           />-->
+    <ImageView
+        android:id="@+id/bikeLoader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/splash_bg_image"
+        android:scaleType="fitXY"/>
+
+    <VideoView
+        android:layout_alignParentTop="true"
+        android:id="@+id/vvSplash"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/ivSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_bg_image"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/page"
+    tools:context=".PhoneOtpScreen">
+
+    <ImageView
+        android:layout_width="@dimen/margin_60"
+        android:layout_height="@dimen/margin_60"
+        android:id="@+id/backBtn"
+        android:padding="@dimen/margin_5"
+        android:src="@drawable/ic_keyboard_arrow_left_white_48dp"
+        android:elevation="@dimen/margin_5"/>
+
+<!--    <ImageView-->
+<!--        android:layout_width="@dimen/margin_60"-->
+<!--        android:layout_height="@dimen/margin_60"-->
+<!--        android:src="@drawable/ic_back_arrow"-->
+<!--        android:padding="@dimen/margin_15"-->
+<!--        android:elevation="5dp"-->
+<!--        android:layout_marginTop="@dimen/margin_16"/>-->
+
+    <ImageView
+        android:id="@+id/imagebg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/plates_login_bg"
+        android:elevation="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/imagebg"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/text_size_20"
+        android:id="@+id/otpHeading"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="@string/enter_the_otp_received"/>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/otpLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/new_white_bg"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/otpHeading"
+        android:weightSum="1">
+
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/otpTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionNext"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:gravity="center"
+        android:hint="XXXX"
+        android:inputType="phone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOtpVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@+id/otpLayout"
+        android:layout_marginTop="15dp"
+        android:imeOptions="actionDone"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_edge_rect_green"
+        android:text="@string/verify_otp"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+
+        android:id="@+id/otpResendLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOtpVerify"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+<!--        <TextView-->
+<!--            android:id="@+id/startOtpText"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="16sp"-->
+<!--            android:layout_marginRight="@dimen/margin_5"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="Didn't get OTP?"/>-->
+        <TextView
+            android:id="@+id/resendOtp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#317BD6"
+            android:text="@string/resend_otp"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+</layout>

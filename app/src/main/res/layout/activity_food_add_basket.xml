@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".FoodAddBasketActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <ScrollView
+        android:id="@+id/svPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rlFoodInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/ivFoodLogo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/rect_bg_primarycolor_deep"
+                    android:padding="1dp"
+                    android:src="@drawable/placeholder_land"/>
+                    <!--app:actualImageScaleType="fitXY"-->
+                    <!--app:failureImage="@drawable/placeholder_land"-->
+                    <!--app:progressBarImage="@android:drawable/progress_indeterminate_horizontal" />-->
+
+                <TextView
+                    android:id="@+id/tvFoodTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ivFoodLogo"
+                    android:layout_toRightOf="@+id/ivFoodLogo"
+                    android:text="@string/sample_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvFoodInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFoodTitle"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toEndOf="@+id/ivFoodLogo"
+                    android:layout_toRightOf="@+id/ivFoodLogo"
+                    android:text="@string/sample_text_long"
+                    android:textSize="12sp" />
+
+                <!--<TextView
+                    android:id="@+id/tvShowMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFoodInfo"
+                    android:layout_toEndOf="@+id/ivFoodLogo"
+                    android:layout_toRightOf="@+id/ivFoodLogo"
+                    android:text="@string/show_more"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:visibility="gone" />-->
+            </RelativeLayout>
+
+            <include layout="@layout/layout_simple_line" />
+
+            <RelativeLayout
+                android:id="@+id/rlGallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvPhotos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/photos"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:id="@+id/hsvGallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPhotos"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:id="@+id/llGallery"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" />
+                </HorizontalScrollView>
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/lineGallery"
+                layout="@layout/layout_simple_line" />
+
+            <LinearLayout
+                android:id="@+id/llSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/size"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/llPlateSizes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+            </LinearLayout>
+
+            <include
+                android:id="@+id/lineSize"
+                layout="@layout/layout_simple_line" />
+
+            <LinearLayout
+                android:id="@+id/llQty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/quantity"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ivSubtract"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        android:src="@drawable/minus" />
+
+                    <TextView
+                        android:id="@+id/tvQty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:padding="5dp"
+                        android:textSize="18sp" />
+
+                    <ImageView
+                        android:id="@+id/ivAdd"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:padding="5dp"
+                        android:src="@drawable/plus" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <include
+                android:id="@+id/lineQty"
+                layout="@layout/layout_simple_line" />
+
+            <LinearLayout
+                android:id="@+id/llAddOns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/select_add_ons"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/lineAddOns"
+                layout="@layout/layout_simple_line" />
+
+            <LinearLayout
+                android:id="@+id/llIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/select_ingredients"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/lineIngredients"
+                layout="@layout/layout_simple_line" />
+
+            <RelativeLayout
+                android:id="@+id/rlTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="@string/total"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/sample_number"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tetComment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/comment"
+                    android:inputType="textMultiLine"
+                    android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_below="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnAddToBasket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_edge_rect_green"
+        android:onClick="onAddToBasketClicked"
+        android:text="@string/add_to_basket"
+        android:textColor="@color/white" />
+</RelativeLayout>

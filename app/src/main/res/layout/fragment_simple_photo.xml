@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/trans_greyXXDark"
+                android:clickable="true"
+                tools:context="com.afieat.ini.fragments.PhotoSlideFragment">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/placeholder_land"/>
+        <!--fresco:progressBarImage="@android:drawable/progress_indeterminate_horizontal"-->
+        <!--fresco:actualImageScaleType="fitXY"-->
+        <!--fresco:failureImage="@drawable/placeholder_land"-->
+        <!--fresco:failureImageScaleType="fitXY"-->
+
+</RelativeLayout>

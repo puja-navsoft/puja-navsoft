@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:id="@+id/page"
+                android:layout_height="match_parent"
+                android:background="#F0F0F0"
+                tools:context="com.afieat.ini.VoucherActivity">
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/appbar"
+        android:layout_marginTop="@dimen/margin_15"
+        android:id="@+id/voucherRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/noVoucher"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:text="@string/no_voucher"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/orangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

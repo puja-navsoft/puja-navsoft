@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.afieat.ini.SearchActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="3dp"
+        android:fitsSystemWindows="true"
+        android:minHeight="?android:attr/actionBarSize"></androidx.appcompat.widget.Toolbar>
+
+<!--
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:drawableLeft="@drawable/ic_search_white_24dp"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_search_white_24dp"
+        android:hint="@string/menu_search"
+        android:inputType="textAutoComplete"
+        android:singleLine="true"
+        android:textColor="@color/trans_greyXDark"
+        android:textColorHint="@color/trans_greyXDark" />
+-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:src="@mipmap/ic_search"
+            android:padding="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:backgroundTint="#fff"
+            android:paddingRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:hint="kmdklmk"
+            android:textSize="15sp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:src="@mipmap/ic_close"
+            android:padding="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <!--<android.support.v7.widget.SearchView
+            android:id="@+id/search"
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:searchIcon="@mipmap/ic_search"
+            app:searchHintIcon="@null"
+            app:closeIcon="@mipmap/ic_close"
+            android:clickable="true" />-->
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/rvSearchResults"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+</LinearLayout>

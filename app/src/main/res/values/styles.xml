@@ -1,0 +1,143 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorSecondary">@color/greyXLight</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="android:textColorSecondary">@color/greyXLight</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.NoActionBarRestaurantsDetailActivity">
+        <item name="android:textColorSecondary">@color/greyXLight</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="elevation">0dp</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- ImageApplication theme. -->
+    <style name="ImageScreeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorSecondary">@color/greyXLight</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myrating" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+
+
+    //----------------rating
+
+
+    <style name="CustomRating2_5" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar_2_5</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+
+    <style name="CustomRating3" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar_3</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+    <style name="CustomRating3_5" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar_3_5</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+    <style name="CustomRating4" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar_4</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+    <style name="CustomRating4_5" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar_4_5</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+
+
+
+
+    <style name="myratinginactivity" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_ratingbar</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:maxHeight">36dp</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <!--        <item name="windowTranslucentStatus">true</item>
+        <item name="windowTranslucentNavigation">true</item>-->
+    </style>
+
+    <style name="AppTheme.TransparentStatusbar" parent="AppTheme">
+        <!--        <item name="windowTranslucentStatus">true</item>-->
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="MaterialDialogSheetNoAnim" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="backgroundTint">?attr/colorAccent</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/yellowRating</item>
+        <item name="colorControlActivated">@color/yellowRating</item>
+    </style>
+
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bg</item>
+        <item name="android:indeterminateDrawable">@drawable/rating_bg</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom</item>
+    </style>
+
+    <style name="SearchDiaogTheme">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/translucent</item>
+
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+</resources>

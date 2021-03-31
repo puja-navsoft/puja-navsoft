@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fresco="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="140dp"
+              android:layout_marginBottom="@dimen/margin_5"
+              android:background="@color/white"
+              android:orientation="horizontal"
+              android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/imageViewRel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ivRestaurantLogoCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fresco:cardCornerRadius="@dimen/margin_5">
+
+            <ImageView
+                android:id="@+id/ivRestaurantLogo"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/placeholder_land" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/ratingSingle"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/ivRestaurantLogoCV"
+            android:background="@drawable/rating_above_3_5"
+            android:elevation="@dimen/margin_2"
+            android:paddingBottom="@dimen/margin_2"
+            android:paddingLeft="@dimen/margin_10"
+            android:maxLength="3"
+            android:textStyle="bold"
+            android:paddingRight="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_2"
+            android:text="4.5"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:weightSum="1">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_weight="0.85"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sample_text"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCuisine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sample_text"
+                        android:textColor="@color/greyDark"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tvAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/sample_text_long"
+                        android:textColor="@color/greyDark"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/statusLinearLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:text="@string/status"
+                            android:textColor="@color/greyDark"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/tvStatus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="3dp"
+                            android:textColor="@color/greenButton"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <RatingBar
+                            android:id="@+id/ratingRestaurant"
+                            style="@style/myrating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:isIndicator="true" />
+
+                        <TextView
+
+                            android:id="@+id/tvRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toRightOf="@+id/ratingRestaurant"
+                            android:textColor="#888" />
+
+
+                        <TextView
+                            android:id="@+id/TXT_ProcesingTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:paddingEnd="5dp"
+                            android:paddingRight="5dp"
+                            android:textColor="@color/greyDark"
+                            android:textSize="8sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:baselineAligned="false"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlDiscount"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/img_discount"
+                        android:src="@drawable/tag_discount" />
+
+                    <TextView
+                        android:id="@+id/tvDiscount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="-10%"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="end|bottom"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tvDeliveryTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="2dp"
+                        android:layout_marginRight="2dp"
+                        android:textColor="@color/greyDark"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/delivers_in"
+                        android:textSize="10sp"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <View
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_2"
+            android:layout_marginTop="@dimen/margin_5"
+            android:background="@color/greyLight" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayoutBelowDeliveryCharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/restaurantDeliveryCharge"
+                android:layout_marginLeft="@dimen/margin_10"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/totalRating"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/greyDark"
+                        android:textSize="11sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="@string/ratings"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/procesingTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/greyDark"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="@string/list_processing_time"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/deliveryTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textColor="@color/greyDark"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:text="@string/list_delivery_time"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

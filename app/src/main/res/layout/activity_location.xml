@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/temp"
+    android:orientation="vertical"
+    tools:context="com.afieat.ini.LocationActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/openDrawer"
+                    android:layout_width="18dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/margin_40"
+                    android:background="@drawable/hamburger" />
+
+                <ImageView
+                    android:id="@+id/fakeViewDrawer"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:background="@color/transparent" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/rlLocationBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone">
+
+        <include
+            android:id="@+id/appbar"
+            layout="@layout/app_bar"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ivLocationBg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/title_address"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_location" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:padding="10dp"
+            android:text="@string/set_your_location"
+            android:textColor="@color/greyXLight"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <!--      <ScrollView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_below="@+id/rlLocationBg"
+                  android:scrollbars="none">
+
+
+              </ScrollView>-->
+        <LinearLayout
+            android:id="@+id/llCityRegionSelectorWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_marginRight="@dimen/margin_20"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvChooseCity"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/choose_city_spinner_bg"
+                android:paddingBottom="@dimen/margin_10"
+                android:paddingTop="@dimen/margin_10"
+                android:text="Choose Your City"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvChooseRegion"
+                style="@style/Base.TextAppearance.AppCompat.Medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/choose_city_spinner_bg"
+                android:paddingBottom="@dimen/margin_10"
+                android:paddingTop="@dimen/margin_10"
+                android:text="Choose Your Region"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/spCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/choose_city_spinner_bg"
+                android:textAlignment="center"
+                android:visibility="gone" />
+
+            <Spinner
+                android:id="@+id/spRegion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/choose_city_spinner_bg"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnShowRestaurants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:enabled="false"
+            android:alpha="0.3"
+            android:background="@drawable/new_white_border_transparent_btn_bg"
+            android:text="@string/show_restaurants"
+            android:textColor="@color/white" />
+
+<!--        <TextView-->
+<!--            android:text="@string/or"-->
+<!--            android:layout_margin="@dimen/margin_5"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnShowAllRestaurants"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="25dp"-->
+<!--            android:enabled="false"-->
+<!--            android:alpha="0.3"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:background="@drawable/new_white_border_transparent_btn_bg"-->
+<!--            android:text="@string/all_restaurants"-->
+<!--            android:textColor="@color/white"/>-->
+
+        <RadioGroup
+            android:id="@+id/rgLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <RadioButton
+                android:id="@+id/rbLangAr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/flag_ar"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/flag_ar"
+                android:text="@string/arabic"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbLangEn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/flag_en"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/flag_en"
+                android:text="@string/english"
+                android:textSize="18sp" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <!--<pl.droidsonroids.gif.GifImageView
+
+        android:id="@+id/bikeLoader"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bike_anim"
+
+        />-->
+
+</RelativeLayout>

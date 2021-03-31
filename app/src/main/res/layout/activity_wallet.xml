@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.afieat.ini.WalletActivity">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_bar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/rlWalletInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvWalletBalanceHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wallet_balance"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/tvWalletBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_number"
+                android:layout_toEndOf="@+id/tvWalletBalanceHeader"
+                android:layout_toRightOf="@+id/tvWalletBalanceHeader"
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvAddCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:text="@string/add_new_card"
+                android:textAllCaps="true"
+                android:textColor="@color/greenButton"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/rlHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlWalletInfo"
+        android:background="@color/greyXXLight"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvCardRechargeDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:text="@string/recharge_date"/>
+
+        <TextView
+            android:id="@+id/tvCardNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:textStyle="bold"
+            android:text="@string/card_no"/>
+
+        <TextView
+            android:id="@+id/tvCardBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:text="@string/balance"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/rlHeader"
+        android:background="@color/greyLight"/>
+
+    <ListView
+        android:id="@+id/lvCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_below="@+id/rlHeader" />
+
+    <TextView
+        android:id="@+id/tvNoCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/msg_no_card"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:src="@drawable/ic_add_white_36dp" />
+</RelativeLayout>
