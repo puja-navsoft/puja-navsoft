@@ -939,5 +939,7 @@ public class AddressAddActivity extends AppCompatActivity implements OnMapReadyC
             Toast.makeText(this, "Permission Denied", Toast.LENGTH_SHORT).show();
         }
     }
+
+    //++++
 }
 
