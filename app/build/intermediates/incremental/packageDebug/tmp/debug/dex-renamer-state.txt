@@ -1,0 +1,16 @@
+#Wed Mar 31 17:55:19 IST 2021
+path.3=classes_0.dex
+path.2=classes2.dex
+path.1=classes.dex
+renamed.4=classes5.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+base.4=/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_1.dex
+renamed.0=classes.dex
+base.3=/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex
+base.2=/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes2.dex
+base.1=/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.0=/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.4=classes_1.dex

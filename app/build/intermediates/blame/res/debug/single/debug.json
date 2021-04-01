@@ -1,0 +1,1894 @@
+[
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_search.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_search.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_restaurant_list_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_restaurant_list_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/anim_up_from_bottom.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/anim/up_from_bottom.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/anim_exit_out.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/anim/exit_out.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_plus_add_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/plus_add_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rect_bg_grey_light.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rect_bg_grey_light.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_sort_black_24dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_sort_black_24dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_notification_category_drawable.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/notification_category_drawable.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_right_arrow.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_right_arrow.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_rect.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_rect.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_fab_carts.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_fab_carts.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_filter_list_black_24dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_filter_list_black_24dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_voucher_detail.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_voucher_detail.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_restaurant.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/restaurant.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_favourite.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_favourite.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_facebook.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_facebook.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_call_black_18dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_call_black_18dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_restaurant_black_18dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_restaurant_black_18dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_add_photo_button.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/add_photo_button.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_share.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_share.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_edit.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/edit.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fullimage_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fullimage_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_close_white_24dp.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_close_white_24dp.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_category_list.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_category_list.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_discountbg.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/discountbg.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rect_bg_grey.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rect_bg_grey.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_help.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_help.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_resturant_details_content_scrolling.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/resturant_details_content_scrolling.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_size_row_dialog.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/size_row_dialog.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_review_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_review_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxhdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_nodata_avialbale.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/nodata_avialbale.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_view_online_search_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/view_online_search_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_butler_delivery.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_butler_delivery.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_4.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_4.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_list_footer_progress.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_list_footer_progress.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_thumb_plus.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_thumb_plus.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_restaurant_details.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_restaurant_details.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_deals.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_deals.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_chat.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_chat.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_background_facebook.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/background_facebook.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_search_.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_search_.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_favourite_row_layout.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/favourite_row_layout.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_points_black.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/points_black.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart_1.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart_1.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_app_bar.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/app_bar.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_orders_detail_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_orders_detail_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_empty.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_empty.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_restaurant.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_restaurant.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_delivery_point.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/delivery_point.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_address_from_map.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_address_from_map.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_search.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_search.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_2_5.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_2_5.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rounded_corner.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rounded_corner.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_3_5_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_3_5_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_above_4_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_above_4_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_4_5.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_4_5.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_circle_green.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/circle_green.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_3_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_3_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_menu_filter.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/menu_filter.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_above_2_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_above_2_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_done_white_24dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_done_white_24dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_butler_menu.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/butler_menu.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/anim_entry_in.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/anim/entry_in.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_filter_menu.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_filter_menu.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_4_5_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_4_5_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_restaurant.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_restaurant.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_contact.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_contact.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_nav_deal.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xhdpi/nav_deal.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_forward.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_forward.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_add_white_48dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_add_white_48dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_food.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_food.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_clear_black_18dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_clear_black_18dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_cuisine.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_cuisine.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_bg_pizza.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/bg_pizza.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_test1.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/test1.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_star_blank.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/star_blank.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_default_dot.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxxhdpi/default_dot.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_mail.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_mail.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_dialog_restaurent_list.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/dialog_restaurent_list.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_product_row_new.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/product_row_new.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart_3.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart_3.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_pager_indicator_fill.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/pager_indicator_fill.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_restaurant_order_items.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_restaurant_order_items.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/anim_slide_bottom.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/anim/slide_bottom.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_location.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_location.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_arrow_right_black.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_arrow_right_black.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_my_orders_row.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_my_orders_row.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_app_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/anim_exit_in.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/anim/exit_in.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_anixml.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/anixml.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_address.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_address.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_custom_ratingbar_2_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/custom_ratingbar_2_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_progressbar.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_progressbar.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_basket.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_basket.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_product_detail_page_new.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/product_detail_page_new.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_star_full_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/star_full_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_star.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/star.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_money.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/money.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_green_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxhdpi/green_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_nav_header_location.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/nav_header_location.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_bg_circle_yollow.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/bg_circle_yollow.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_search_white_24dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_search_white_24dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_custom_ratingbar_4_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/custom_ratingbar_4_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_wallet.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_wallet.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_background_google.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/background_google.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_flag_ar.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/flag_ar.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_nav_butler.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/nav_butler.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_login_btn_background.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/login_btn_background.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_deals_list_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_deals_list_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rewardtest.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rewardtest.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart_3more_ar.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart_3more_ar.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_facebook_btn.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxxhdpi/facebook_btn.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_order_cart_view.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/order_cart_view.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_basket2.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_basket2.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_listview_fooditems_header.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_listview_fooditems_header.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_food_addon.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_food_addon.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_shopping_cart.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/shopping_cart.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_tag_discount.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/tag_discount.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/anim_zoom_in.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/anim/zoom_in.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_chat.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_chat.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_location_marker.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/location_marker.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xhdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xhdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_restaurants_detail.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_restaurants_detail.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_visibility_off_black_18dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_visibility_off_black_18dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_photo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/photo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_zoom_imageview_dialog.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/zoom_imageview_dialog.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_round_edge_circle_green.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/round_edge_circle_green.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_nav_about.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/nav_about.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_plus_bg_ar.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/plus_bg_ar.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rect_bg_primarycolor_solid.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rect_bg_primarycolor_solid.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_new_black_border_transparent_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/new_black_border_transparent_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_card_restaurant.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_card_restaurant.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_track_your_btn.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_track_your_btn.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_plus.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/plus.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_full_screen_image_display.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_full_screen_image_display.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_restaurant_list_item_ads.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_restaurant_list_item_ads.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_marker_home.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/marker_home.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_refresh_white_24dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_refresh_white_24dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_round_edge_rect_green.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/round_edge_rect_green.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_afieat_small.gif.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/afieat_small.gif"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_share_mypoints.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/share_mypoints.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_pencil.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_pencil.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_nav_list_item_new.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_nav_list_item_new.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_checkbox_w_price.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_checkbox_w_price.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_help_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/help_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart_2_ar.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart_2_ar.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_background_design_card.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/background_design_card.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_prepaid_card.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_prepaid_card.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_full_4_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_full_4_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_search.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_search.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_review_photos_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/review_photos_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_listview_fooditems.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_listview_fooditems.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_wallet.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_wallet.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_account.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_account.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_new_red_border_transparent_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/new_red_border_transparent_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_cuisine.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_cuisine.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_custom_ratingbar_3.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/custom_ratingbar_3.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_logo_shopini.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/logo_shopini.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_notification_row.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_notification_row.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_green_bell.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/green_bell.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_box.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_box.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_plus_add_bg_ar.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/plus_add_bg_ar.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_3_5.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_3_5.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_above_3_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_above_3_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_bg_restaurant.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/bg_restaurant.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_review_image_submit.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/review_image_submit.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_bg.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_bg.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_star_full.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/star_full.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_resaurant_gallery.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_resaurant_gallery.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_phone_otp_screen.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_phone_otp_screen.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_green_bg_duplicate.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/green_bg_duplicate.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_content_location_new.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/content_location_new.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_custom_ratingbar_4.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/custom_ratingbar_4.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_splash_bg_image.jpg.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/splash_bg_image.jpg"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_info_outline_white_24dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_info_outline_white_24dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_2_5_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_2_5_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_search.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_search.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_restaurantmarker.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_restaurantmarker.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rect_bg_green.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rect_bg_green.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_empty_rating_rect.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/empty_rating_rect.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_content_deals.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/content_deals.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/raw_awsconfiguration.json.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/raw/awsconfiguration.json"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_plate_size.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_plate_size.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_from.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_from.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_4_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_4_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_menubutton_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/menubutton_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_list_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_list_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_deals.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_deals.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_gallery_row_items.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/gallery_row_items.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_refresh.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/refresh.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_maps.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_phone_registration.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_phone_registration.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_splash.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_nav_list_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_nav_list_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_input_card_number.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_input_card_number.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_fooditem.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_fooditem.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_app_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_order_item_addons.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_order_item_addons.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_check.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/check.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_search_dialog.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/search_dialog.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart_3_ar.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart_3_ar.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_track_your_order.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_track_your_order.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_marker_del_boy.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/marker_del_boy.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_visibility_black_18dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_visibility_black_18dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_app_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_restaurant_info_opening_time_row.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_restaurant_info_opening_time_row.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rect_bg_primarycolor_deep.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rect_bg_primarycolor_deep.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_language.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_language.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_settings.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_settings.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_product_detail_page.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_product_detail_page.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_food_menu_popup_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/food_menu_popup_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_restdelivery_review.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_restdelivery_review.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_nav_fb_24.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/nav_fb_24.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_voucher_row_layout.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/voucher_row_layout.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_call_24dp.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_call_24dp.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_custom_ratingbar.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/custom_ratingbar.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_textview.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_textview.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_address_selection.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_address_selection.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_help_center.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_help_center.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_top_shadow.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/top_shadow.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_profile.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_imgdelete.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_imgdelete.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rounded_corner_stroke.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rounded_corner_stroke.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_menu_driver_order.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/menu_driver_order.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_afieat_gif_loader_dialog.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/afieat_gif_loader_dialog.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_aboutus.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_aboutus.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_search_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/search_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_nav_deal.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxxhdpi/nav_deal.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_categoryoffood_list.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_categoryoffood_list.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_close.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_close.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_corner_border_res.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/corner_border_res.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_new_red_btn_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/new_red_btn_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_empty_ratng_n.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/empty_ratng_n.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_search.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_minus_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/minus_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_food_plate_price.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_food_plate_price.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_category_background.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_category_background.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_n.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_n.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_afieat_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/afieat_logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_favorite.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/favorite.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_location_drawer_new.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_location_drawer_new.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_restaurant.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_restaurant.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_share_grey.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/share_grey.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_new_white_border_transparent_btn_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/new_white_border_transparent_btn_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_categoryoffood.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_categoryoffood.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_city_recyclerview_dialog.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/city_recyclerview_dialog.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_tab_selector.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxxhdpi/tab_selector.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_order_estimate.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_order_estimate.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_nav_facebook_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/nav_facebook_logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_round_edge_rect_orange.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/round_edge_rect_orange.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_photo_gallery.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_photo_gallery.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_arrow_right.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/arrow_right.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_plates_login_bg.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/plates_login_bg.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_textview_tab_header.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_textview_tab_header.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_restaurants.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_restaurants.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_fb_24.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/fb_24.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_temp.jpg.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/temp.jpg"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_full.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_full.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_restaurant_review.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_restaurant_review.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_spinner_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_spinner_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_uncheck.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/uncheck.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_youtube_play_button.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_youtube_play_button.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_cuisine.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_cuisine.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_check_in.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_check_in.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_delivery_review.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_delivery_review.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_referral.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/referral.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_del_truck_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/del_truck_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_more_vert_black_18dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_more_vert_black_18dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_food.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/food.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_detail_click__page.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_detail_click__page.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_product_detailed.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_product_detailed.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_app_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_sign_up.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart_2.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart_2.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_nav_deal.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/nav_deal.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_cuisine.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/cuisine.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_change_password.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_google.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_google.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_corner_border_status_my_point.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/corner_border_status_my_point.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_circular_shape_silhouette.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_circular_shape_silhouette.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_nav_header.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_nav_header.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_payment.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_payment.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_search.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_search.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_bookmark_button.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/bookmark_button.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_my_points_row_layout.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/my_points_row_layout.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_del_charge_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxhdpi/del_charge_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_copy_mypoint.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/copy_mypoint.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_login.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/login.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_payment_success.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_payment_success.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_choose_city_spinner_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/choose_city_spinner_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_forward.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_forward.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_restaurant_popular_products.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_restaurant_popular_products.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_star_blank_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/star_blank_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_review_add.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_review_add.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_baseline_bookmark_border_24.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_baseline_bookmark_border_24.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_black_points.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/black_points.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_forward.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_forward.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rounded_call_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rounded_call_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_star.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_star.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_close.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_close.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_food_menu_popup.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/food_menu_popup.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_cart_button_border.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/cart_button_border.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_food.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_food.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_full_rating_above_3.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/full_rating_above_3.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_circle_grey.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/circle_grey.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_simple_photo.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_simple_photo.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart_1_ar.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart_1_ar.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_hamburger.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/hamburger.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_about_24.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/about_24.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_delivery_type.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/delivery_type.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_list_address_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_list_address_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_card_payment.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_card_payment.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_address_add.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_address_add.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/font_alike_angular.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/font/alike_angular.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_line.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_line.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_places_ic_search.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/places_ic_search.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_delivery_point.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_delivery_point.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_signout.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_signout.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rect_bg_grey_deep.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rect_bg_grey_deep.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_right_arrow.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_right_arrow.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_minus_bg_ar.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/minus_bg_ar.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_premium_badge.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/premium_badge.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_close.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_close.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_icon_plus.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/icon_plus.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_dummy_to_delete.jpg.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/dummy_to_delete.jpg"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_custom_ratingbar_3_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/custom_ratingbar_3_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_chat_center.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_chat_center.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_scroll_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_scroll_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_restaurant.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_restaurant.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_nav_fb.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/nav_fb.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_add_review_button.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/add_review_button.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_select_size_dialog.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/select_size_dialog.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/menu_view_online_search_menu.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/menu/view_online_search_menu.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_my_points.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_my_points.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_order_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_order_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_happy.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_happy.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_above_4.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_above_4.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_reset_password.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_full_4.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_full_4.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/menu_restaurant_food.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/menu/restaurant_food.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_food.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_food.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_brightness_1_black_circle.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_brightness_1_black_circle.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_phone.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_phone.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/menu_menu_addreview.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/menu/menu_addreview.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_curved_border_color_primary.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/curved_border_color_primary.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_restaurant.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_restaurant.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_new_gif_loader.gif.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/new_gif_loader.gif"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_keyboard_arrow_right_white_48dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_keyboard_arrow_right_white_48dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_new_drawer_layout_login_page.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/new_drawer_layout_login_page.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_subcategoryoffood.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_subcategoryoffood.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_marker_normal.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_marker_normal.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_reviews.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_reviews.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_add_white_36dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_add_white_36dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_location_on_black_18dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_location_on_black_18dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/menu_add_address.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/menu/add_address.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_orders.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_orders.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_right_arrow.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_right_arrow.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_app_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_empty_rating_small.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/empty_rating_small.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_icons_addimage.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/icons_addimage.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/menu_popup_edit_address_butler.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/menu/popup_edit_address_butler.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_tag_discount.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/tag_discount.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_points.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/points.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/menu_popup_edit_address.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/menu/popup_edit_address.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_right_arrow.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_right_arrow.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi_nav_deal.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxhdpi/nav_deal.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_review_image_cell.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/review_image_cell.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_crazy_deals.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_crazy_deals.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_language_selection.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_language_selection.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_app_logo.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_forgot_password.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_cash_payment.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_cash_payment.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_food_add_basket.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_food_add_basket.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/anim_entry_out.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/anim/entry_out.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_full_2_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_full_2_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_full_3_5.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_full_3_5.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_account_circle_black_18dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_account_circle_black_18dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_full_3.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_full_3.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_deal.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_deal.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_photo_slide.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_photo_slide.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_rating_above_3.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/rating_above_3.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_home_24.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/home_24.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_login_24.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/login_24.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_item_crazy_deals_restaurent_list.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/item_crazy_deals_restaurent_list.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_voucher.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_voucher.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_dialog_sort.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/dialog_sort.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_food.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_food.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_enter_mail_id.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/enter_mail_id.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_voucher_success_msg_dialog.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/voucher_success_msg_dialog.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_bg_location.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxxhdpi/bg_location.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_selected_dot.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxxhdpi/selected_dot.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/anim_slide_up.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/anim/slide_up.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_restaurant_list.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_restaurant_list.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_customer_review.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_customer_review.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_corner_border_status_pending_my_point.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/corner_border_status_pending_my_point.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_right_arrow.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_right_arrow.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_notification.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_notification.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_cuisine.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_cuisine.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_city_recyclerview_row.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/city_recyclerview_row.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_cart_3more.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/cart_3more.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_notifications_none_white_24dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_notifications_none_white_24dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_card_food.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_card_food.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_thumb_gallery.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_thumb_gallery.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_order_details.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_order_details.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_close.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_close.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_keyboard_arrow_left_white_48dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_keyboard_arrow_left_white_48dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_google_btn.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-xxxhdpi/google_btn.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_activity_delivery_review.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_delivery_review.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_flag_en.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/flag_en.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_food.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_food.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_placeholder_land.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/placeholder_land.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_rough.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/rough.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_ordercartviewpager.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/ordercartviewpager.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_food_review.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_food_review.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_notifications_white_24dp.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/ic_notifications_white_24dp.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_simple_thumb.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_simple_thumb.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_layout_review_list_item.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/layout_review_list_item.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_rating_gupi.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/rating_gupi.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_cuisine.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxhdpi/ic_cuisine.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_forward.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_forward.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_new_white_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/new_white_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_white_bg_duplicate.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/white_bg_duplicate.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_ic_cancel.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/ic_cancel.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_dialog_crazy_btn_background.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/dialog_crazy_btn_background.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/layout_fragment_restaurant_info.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/fragment_restaurant_info.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-mdpi_pager_indicator_empty.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-mdpi/pager_indicator_empty.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_nav_about_new.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/nav_about_new.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_plus_bg.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/plus_bg.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_minus.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/minus.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_close.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xhdpi/ic_close.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_forward.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/mipmap-xxxhdpi/ic_forward.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_corner_border.xml.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/corner_border.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_review.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/review.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable_menu_button.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable/menu_button.png"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/res/merged/debug/drawable-hdpi_nav_orders.png.flat",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/drawable-hdpi/nav_orders.png"
+    }
+]

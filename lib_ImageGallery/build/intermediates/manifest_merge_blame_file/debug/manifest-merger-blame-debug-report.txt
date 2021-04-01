@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vlk.multimager"
+4    android:versionCode="10"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:4:5-79
+11-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:4:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:5:5-80
+12-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:6:5-64
+13-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:6:22-62
+14
+15    <uses-feature android:name="android.hardware.camera" />
+15-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:7:5-60
+15-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:7:19-57
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:8:5-70
+16-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:8:19-67
+17    <uses-feature
+17-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:9:5-11:36
+18        android:name="android.hardware.camera.flash"
+18-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:10:9-53
+19        android:required="false" />
+19-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:11:9-33
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:12:5-67
+21-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:12:22-64
+22
+23    <application
+23-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:13:5-26:19
+24        android:label="@string/app_name"
+24-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:14:9-41
+25        android:supportsRtl="true" >
+25-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:15:9-35
+26        <activity
+26-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:16:9-20:20
+27            android:name="com.vlk.multimager.activities.GalleryActivity"
+27-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:17:13-55
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+28-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:19:13-103
+29            android:theme="@style/MultimagerTheme.NoActionBar" >
+29-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:18:13-63
+30        </activity>
+31        <activity
+31-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:21:9-25:20
+32            android:name="com.vlk.multimager.activities.MultiCameraActivity"
+32-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:22:13-59
+33            android:screenOrientation="portrait"
+33-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:24:13-49
+34            android:theme="@style/MultimagerTheme.NoActionBar" >
+34-->/home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/src/main/AndroidManifest.xml:23:13-63
+35        </activity>
+36    </application>
+37
+38</manifest>

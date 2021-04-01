@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">271828680724-ickatvgooo0mjdjp7c458ome9ke0krp6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://afieat-driver-c0dd3.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">271828680724</string>
+    <string name="google_api_key" translatable="false">AIzaSyAV1siaetFYC1JzcIpeH4jJxLXkBDeXbSk</string>
+    <string name="google_app_id" translatable="false">1:271828680724:android:5d98902b2eb14b3a2de701</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAV1siaetFYC1JzcIpeH4jJxLXkBDeXbSk</string>
+    <string name="google_storage_bucket" translatable="false">afieat-driver-c0dd3.appspot.com</string>
+    <string name="project_id" translatable="false">afieat-driver-c0dd3</string>
+</resources>

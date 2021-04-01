@@ -190,6 +190,7 @@ public class AddressAddActivity extends AppCompatActivity implements OnMapReadyC
             btnSave.setVisibility(View.GONE);
             btnOk.setVisibility(View.VISIBLE);
         }
+
         AppUtils.hideViews(svAddAddress);
 
         AlertDialog.Builder builderCities = new AlertDialog.Builder(AddressAddActivity.this);
@@ -940,6 +941,6 @@ public class AddressAddActivity extends AppCompatActivity implements OnMapReadyC
         }
     }
 
-    //++++
+    // ===////////////////////////
 }
 

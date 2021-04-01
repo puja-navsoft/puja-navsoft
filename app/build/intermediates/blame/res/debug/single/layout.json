@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_delivery_point.xml",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_delivery_point.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_phone_otp_screen.xml",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_phone_otp_screen.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_address_from_map.xml",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_address_from_map.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_phone_registration.xml",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_phone_registration.xml"
+    },
+    {
+        "merged": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile.xml",
+        "source": "/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/res/layout/activity_profile.xml"
+    }
+]

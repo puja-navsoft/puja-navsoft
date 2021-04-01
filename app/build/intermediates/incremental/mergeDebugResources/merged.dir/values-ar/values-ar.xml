@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="sort_menu">
+        <item>شعبية</item>
+        <item>السعر</item>
+        <item>المسافة</item>
+    </string-array>
+    <integer name="anim_duration_medium">300</integer>
+    <string name="OPENING_HOURS">ساعات العمل</string>
+    <string name="OR">أو</string>
+    <string name="Phone">هاتف :</string>
+    <string name="Please_wait_for">انتظر رجاءا </string>
+    <string name="Resturants">مطاعم</string>
+    <string name="Seconds"> ثانية </string>
+    <string name="View_online_order_menu">اعرض قائمة الطلبات عبر الإنترنت></string>
+    <string name="_default">افتراضي</string>
+    <string name="_submit">عرض</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="about_us">معلومات حولنا</string>
+    <string name="about_us_des">
+موقع عافيات ينتمي إلى شركة العالم الافتراضي ، التي تأسست عام 2016 ، ومسجل في وزارة التجارة ، دائرة تسجيل الشركات في العراق ، وفق القرار رقم (a-02-1107) الموثق في التاريخ (03.08. 2015) ، والتي هي جزء من مجموعة من شركات Fusteka التي تأسست في عام 2003 ، والتي تضم العديد من الشركات: شركة Fusteka للصناعات الغذائية ، Fusteka إنتاج الآيس كريم والحلويات ، ومصانع الغذاء Jekor للمنتجات المجمدة ، شركة العامري للمقاولات ، و Fusteka للتجارة العامة ... و اخرين .. تتوفر خدمة توصيل الطعام لجميع المطاعم المتوفرة في المحافظات العراقية .. هذه الخدمة متوفرة على الموقع الإلكتروني وتطبيقات Android وتطبيقات المتجر. \n         \n رقم الموقع: 07722228456 07822228456 \n البريد الإلكتروني: info@Afieat.com \n مكتب البصرة: شارع الجزائر - البصرة - العراق. مكتب بغداد: اليرموك
+</string>
+    <string name="add">أضف</string>
+    <string name="add_favorite">مفضلة</string>
+    <string name="add_item">اضافة مادة</string>
+    <string name="add_new_address">اضف عنوان جديد</string>
+    <string name="add_new_card">إضافة بطاقة جديدة</string>
+    <string name="add_notes_for_the_driver">أضف ملاحظات للسائق</string>
+    <string name="add_photos">صور المطعم</string>
+    <string name="add_reviews">إضافة تعليق</string>
+    <string name="add_to_basket">اضف الى السلة</string>
+    <string name="address2">وصف العنوان , او مكان قريب منك</string>
+    <string name="address_locality">العنوان بواسطة GPS</string>
+    <string name="all_cat_items"> كل الاشياء</string>
+    <string name="all_restaurants">كل المطاعم</string>
+    <string name="amounts">قيمة الطلبية :</string>
+    <string name="app_name">Afieat</string>
+    <string name="apply">تطبيق</string>
+    <string name="apply_promo">تطبيق</string>
+    <string name="arabic">العربية</string>
+    <string name="at">في </string>
+    <string name="auto_applies_during_checkout">هذا الخصم حصريا مع عافيات و لفترة محدودة</string>
+    <string name="balance">رصيد</string>
+    <string name="butler_service">اطلب سائق</string>
+    <string name="button_continue">استمر</string>
+    <string name="call">CALL</string>
+    <string name="cancelled_by_admin">ألغي من قبل المسؤول</string>
+    <string name="card_no">رقم البطاقة.</string>
+    <string name="cart_save_item">لديك طلبية</string>
+    <string name="cart_txt_item">ديك مادة </string>
+    <string name="cash_on_delivery">الدفع عند التسليم</string>
+    <string name="change">تغيير</string>
+    <string name="change_password">
+<u>تغيير كلمة السر</u>
+</string>
+    <string name="choose_language">اختر لغتك</string>
+    <string name="city">مدينة</string>
+    <string name="code">الكود</string>
+    <string gender="unknown" name="com_facebook_device_auth_instructions">تفضل بزيارة &lt;b>facebook.com/device&lt;/b> وإدخال الرمز الموضح أعلاه.</string>
+    <string gender="unknown" name="com_facebook_image_download_unknown_error">حدث خطأ غير متوقع أثناء تنزيل صورة.</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_message">يتطلب تسجيل دخول WebView الحصول إلى إذن INTERNET</string>
+    <string gender="unknown" name="com_facebook_internet_permission_error_title">خطأ AndroidManifest</string>
+    <string gender="unknown" name="com_facebook_like_button_liked">أعجبك</string>
+    <string gender="unknown" name="com_facebook_like_button_not_liked">أعجبني</string>
+    <string gender="unknown" name="com_facebook_loading">جارٍ التحميل…</string>
+    <string gender="unknown" name="com_facebook_loginview_cancel_action">إلغاء</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button">تسجيل الدخول</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">متابعة بحساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_loginview_log_in_button_long">تسجيل الدخول بحساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_action">تسجيل الخروج</string>
+    <string gender="unknown" name="com_facebook_loginview_log_out_button">تسجيل الخروج</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_as">تم تسجيل الدخول باسم: %1$s</string>
+    <string gender="unknown" name="com_facebook_loginview_logged_in_using_facebook">تم تسجيل الدخول باستخدام حساب فيسبوك</string>
+    <string gender="unknown" name="com_facebook_send_button_text">إرسال</string>
+    <string gender="unknown" name="com_facebook_share_button_text">مشاركة</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions">لربط حسابك، افتح تطبيق فيسبوك على جهازك المحمول وراجع الإشعارات.</string>
+    <string gender="unknown" name="com_facebook_smart_device_instructions_or">- أو -</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_cancel">لست أنت؟</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_continue_as">متابعة باسم %1$s</string>
+    <string gender="unknown" name="com_facebook_smart_login_confirmation_title">تأكيد تسجيل الدخول</string>
+    <string gender="unknown" name="com_facebook_tooltip_default">أنت المتحكم في الأمر - يمكنك اختيار المعلومات التي تود مشاركتها مع التطبيقات.</string>
+    <string name="comment">التعليق</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="confirm_order">اطلب الان</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="connect_with_shopini">تواصل مع Shopini</string>
+    <string name="create_account">إصنع حساب</string>
+    <string name="create_an_account">انشئ حساب</string>
+    <string name="credit_card">بطاقة ائتمان</string>
+    <string name="cuisine">مطبخ</string>
+    <string name="currency">ع.د </string>
+    <string name="currency_us">USD </string>
+    <string name="cvv">CVV</string>
+    <string name="date">تاريخ</string>
+    <string name="del_charge">رسوم التوصيل</string>
+    <string name="delivered">تم التوصيل</string>
+    <string name="delivered_by">سلمت بواسطة:</string>
+    <string name="delivers_in">خدمه التوصيل</string>
+    <string name="delivery_address">عنوان التوصيل</string>
+    <string name="delivery_charge">رسوم التوصيل</string>
+    <string name="delivery_date">تاريخ التسليم او الوصول</string>
+    <string name="delivery_details">تفاصيل التسليم</string>
+    <string name="delivery_from">التسليم من</string>
+    <string name="delivery_instructions">تعليمات التوصيل</string>
+    <string name="delivery_time">موعد التسليم</string>
+    <string name="delivery_to">تسليم الى</string>
+    <string name="delivery_type">نوع التوصيل</string>
+    <string name="discount">خصم</string>
+    <string name="dont_have_account">ليس لديك حساب؟</string>
+    <string name="drawer_close">درج إغلاق</string>
+    <string name="drawer_open">درج المفتوحة</string>
+    <string name="edit_order">تحريرالطلب</string>
+    <string name="email"> رقم الجوال</string>
+    <string name="email_address">عنوان البريد الإلكتروني</string>
+    <string name="email_mobile">البريد الإلكتروني / رقم الجوال</string>
+    <string name="english">English</string>
+    <string name="enter_the_otp_received">أدخل OTP المستلم</string>
+    <string name="enter_your_phone_number">أدخل رقم هاتفك</string>
+    <string name="expiry">انتهاء الاكسباير : </string>
+    <string name="expiry_date">تاريخ الانتهاء</string>
+    <string name="family_name">اسم العائلة</string>
+    <string name="fathers_name">اسم الاب</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="female">أنثى</string>
+    <string name="filter">فلتر</string>
+    <string name="filter_new_restaurant">مطعم جديد</string>
+    <string name="filter_offer">عروض</string>
+    <string name="filter_open_restaurant">مطاعم مفتوحة</string>
+    <string name="filter_rating">تصنيفات</string>
+    <string name="filter_veg">فلتر</string>
+    <string name="forgot_password">نسيت رقمك السري؟</string>
+    <string name="forgot_password_continue">Continue</string>
+    <string name="free">مجانا</string>
+    <string name="free_delivery">توصيل مجاني</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="gender">جنس</string>
+    <string name="get_your_current_location">انقر هنا للحصول على موقع GPS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi_2_lo">من الاعلى الى الادنى</string>
+    <string name="highlights">يسلط الضوء على</string>
+    <string name="img_clear">حذف</string>
+    <string name="img_discount">خصم</string>
+    <string name="img_right_arow">السهم الأيمن</string>
+    <string name="in_process">جاري التجهيز</string>
+    <string name="in_the_way">على الطريق</string>
+    <string name="input_address_from_where_you_want_to_deliver">حدد عنوان نقطة الالتقاء الخاصة بك</string>
+    <string name="input_address_of_your_delivery_point">حدد عنوان نقطة التسليم الخاصة بك</string>
+    <string name="iqd"/>
+    <string name="iraq">العراق</string>
+    <string name="item_price">سعر المادة</string>
+    <string name="list_delivery_time">موعد التسليم</string>
+    <string name="list_minimum_order">الحد الأدنى للطلب</string>
+    <string name="list_processing_time">وقت المعالجة</string>
+    <string name="list_rating">تقييم</string>
+    <string name="lo_2_hi">من أسفل إلى أعلى</string>
+    <string name="location">موقع</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="loyalty_points">مجموع نقاطي</string>
+    <string name="make_a_payment">اتمام عملية الدفع</string>
+    <string name="male">ذكر</string>
+    <string name="mention_the_delivery_type">اطلب مجاني او استحصال كلفة</string>
+    <string name="mention_the_order_amount">ادخل المبلغ</string>
+    <string name="mention_the_type_of_package_to_be_delivered">اماذا تريد ان ترسل؟</string>
+    <string name="menu">menu</string>
+    <string name="menu_default">جعله الافتراضي</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_edit">تحرير</string>
+    <string name="menu_filter">فلتر</string>
+    <string name="menu_info">معلومات</string>
+    <string name="menu_notification">إشعارات</string>
+    <string name="menu_refresh">اعادة تنشيط</string>
+    <string name="menu_save">حفظ</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_update">تحديث</string>
+    <string name="min_delivery">وقت التوصيل</string>
+    <string name="min_order_alert">عذرا، هذا المطعم لا يقبل طلب التسليم أدناه</string>
+    <string name="min_procesing">وقت\n التجهيز</string>
+    <string name="min_procesing_2">وقت التجهيز</string>
+    <string name="minimum_order">الحد الأدنى للطلب</string>
+    <string name="minus_sign">-</string>
+    <string name="mobile_msg_field_mandatory">الرجاء إدخال رقم جوال صالح</string>
+    <string name="mobile_no">رقم الهاتف المحمول</string>
+    <string name="more">أكثر</string>
+    <string name="msg_account_created">تم إنشاء الحساب</string>
+    <string name="msg_activate_from_link">
+تفعيل انتظار . يرجى الاطلاع على الرابط في البريد الإلكتروني.
+</string>
+    <string name="msg_add_address">يرجى تحديد الموقع GPS</string>
+    <string name="msg_address_added">إضافة عنوان بنجاح</string>
+    <string name="msg_address_updated">تحديث العنوان بنجاح</string>
+    <string name="msg_code_send_success">إرسال رمز بنجاح</string>
+    <string name="msg_confirm_password_matched">
+تأكيد كلمة السر يجب أن تكون نفس كلمة المرور الجديدة.
+</string>
+    <string name="msg_creating_account">أنشاء حساب</string>
+    <string name="msg_email_exists">البريد الإلكتروني معرف مسبقا</string>
+    <string name="msg_email_invalid">عنوان البريد الإلكتروني غير صالح</string>
+    <string name="msg_email_sending">إرسال البريد الإلكتروني</string>
+    <string name="msg_email_sending_fail">عنوان البريد الإلكتروني غير صالح.</string>
+    <string name="msg_email_sms">إرسال الرسائل القصيرة </string>
+    <string name="msg_enter_description">الرجاء إدخال وصف</string>
+    <string name="msg_enter_family_name">يرجى إدخال اسم العائلة</string>
+    <string name="msg_enter_father_name">الرجاء إدخال اسم الأب</string>
+    <string name="msg_enter_name">الرجاء إدخال اسم</string>
+    <string name="msg_enter_phone">يرجى إدخال رقم الهاتف</string>
+    <string name="msg_fetching_restaurants">جلب المطاعم</string>
+    <string name="msg_field_mandatory">هذه الحقل مطلوب</string>
+    <string name="msg_food_added_basket">تمت اضافة المادة إلى سلة !</string>
+    <string name="msg_invalid_promo">الرمز الترويجي غير صالح</string>
+    <string name="msg_logging_in">تسجيل الدخول</string>
+    <string name="msg_login_fail">خطأ في إدخال العنوان البريدي أو كلمة السر.</string>
+    <string name="msg_login_promo">عليك أن تكون مسجلا للاستفادة قسائم الشراء</string>
+    <string name="msg_login_success">تسجيل الدخول بنجاح</string>
+    <string name="msg_logout_success">تسجيل الخروج</string>
+    <string name="msg_no_card">لا يوجد لديك بطاقات محفوظة</string>
+    <string name="msg_no_food">آسف! لا يوجد اكلات متاحة لهذا المطعم .</string>
+    <string name="msg_no_internet">االشبكة غير متوفرة</string>
+    <string name="msg_no_regions">لاتوجد مطاعم متاحة لهذه المنطقة .</string>
+    <string name="msg_no_restaurants">
+آسف! لاتوجد مطاعم متاحة في المنطقة المحددة الخاصة بك .
+</string>
+    <string name="msg_no_reviews"> لم يتم كتابة تعليقات حتى الآن</string>
+    <string name="msg_no_saved_address">لا عنوان محفوظ</string>
+    <string name="msg_no_token">الجهاز لم تحدد. الرجاء إعادة تشغيل التطبيق.</string>
+    <string name="msg_not_deliverable">لايمكن تسليم الطلب في هذه المنطقة</string>
+    <string name="msg_not_enough_wallet_balance">لا رصيد كافي في المحفظة</string>
+    <string name="msg_operation_not_completed">تعذر إكمال العملية</string>
+    <string name="msg_order_placed_success">اكتمال الطلب بنجاح</string>
+    <string name="msg_password_matched">يجب أن تكون كلمة السر الجديدة مختلفة.</string>
+    <string name="msg_password_min_6_chars">6 أحرف كحد أدنى</string>
+    <string name="msg_password_not_matched">كلمة المرور لم يواكب.</string>
+    <string name="msg_pending_order">
+لديك بالفعل طلب معلق من مطعم آخر. هل أنت متأكد لتحديث سلة طلبك؟
+</string>
+    <string name="msg_phone_sending_fail">رقم الهاتف غير صحيح.</string>
+    <string name="msg_placing_order">وضع النظام</string>
+    <string name="msg_please_login">الرجاء تسجيل الدخول لإكمال هذا الإجراء</string>
+    <string name="msg_please_wait">أرجو الإنتظار</string>
+    <string name="msg_processing">معالجة</string>
+    <string name="msg_promo_not_applicable">هذه القسيمة لا تنطبق على العناصر الحالية</string>
+    <string name="msg_reset_password_success">إعادة تعيين كلمة المرور بنجاح.</string>
+    <string name="msg_reseting_failed">إعادة ضبط كلمة المرور.</string>
+    <string name="msg_reseting_password">إعادة كلمة المرور</string>
+    <string name="msg_restaurant_closed">تم إغلاق المطعم في الوقت المحدد</string>
+    <string name="msg_select_city">اختر المدينة</string>
+    <string name="msg_select_region">الرجاء اختيار المنطقة</string>
+    <string name="msg_server_no_response">خدمة الانترنت ضعيفة</string>
+    <string name="msg_sure_delete_address">تأكد من حذف هذا العنوان ؟</string>
+    <string name="msg_turn_on_location">
+يرجى بدوره على خدمات الموقع الخاص بك وإعادة المحاولة
+</string>
+    <string name="msg_valid_promo">تم تطبيق القسيمة</string>
+    <string name="my_addresses">العناوين المحفوظه</string>
+    <string name="my_points_title">نقاطي</string>
+    <string name="name">اسم</string>
+    <string name="net_payable">المبلغ الاجمالي</string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="nickname_home">الصفحة الرئيسية</string>
+    <string name="noRestaurantDetailMsg">لا تتوفر تفاصيل المطعم ..</string>
+    <string name="no_favourite">المفضلة فارغة!</string>
+    <string name="no_voucher">لاتوجد قسائم شراء!</string>
+    <string name="not_recivied">لم يتم الاستلام</string>
+    <string name="note_for_driver">ملاحظة للسائق</string>
+    <string name="old_password">كلمة المرور القديمة</string>
+    <string name="on_the_way">علي الطريق</string>
+    <string name="opening_hours">ساعات العمل</string>
+    <string name="opening_time">وقت الفتح</string>
+    <string name="or">أو</string>
+    <string name="or_use_email">أو استخدام عنوان البريد الإلكتروني</string>
+    <string name="orderProcess">ديك طلب قيد المعالجة</string>
+    <string name="order_amount">استلام مبلغ الطلب</string>
+    <string name="order_charge">قيمة الطلب</string>
+    <string name="order_no">رقم الطلبية:</string>
+    <string name="order_now">اطلب الان</string>
+    <string name="order_number">رقم الطلبية</string>
+    <string name="order_price">قيمة الطلب</string>
+    <string name="orderonway"> لديك طلب على الطريق </string>
+    <string name="password">كلمه السر</string>
+    <string name="payment_methods">طرق الدفع</string>
+    <string name="paypal">باي بال</string>
+    <string name="paytabs_and">الى</string>
+    <string name="paytabs_card_exp_month">شهر</string>
+    <string name="paytabs_card_exp_year">عام</string>
+    <string name="paytabs_card_holder_name">اسم صاحب البطاقة</string>
+    <string name="paytabs_card_number">رقم البطاقة</string>
+    <string name="paytabs_err_amount">الكمية يجب ان تكون من</string>
+    <string name="paytabs_err_auth">بيانات التاجر غير صحيحه</string>
+    <string name="paytabs_err_card_cvv">من فضلك قم بادخال الـ CVV</string>
+    <string name="paytabs_err_card_exp">من فضلك قم بادخال تاريخ انتهاء بطاقة صحيح</string>
+    <string name="paytabs_err_card_name">من فضلك قم بادخال الاسم الموجود علي البطاقة</string>
+    <string name="paytabs_err_card_no">من فضلك قم بادخال رقم بطاقة صحيح</string>
+    <string name="paytabs_err_no_internet">من فضلك تأكد من الاتصال بالانترنت</string>
+    <string name="paytabs_err_timeout">انتهت مهلة العملية</string>
+    <string name="paytabs_err_unknown">خطأ غير محدد</string>
+    <string name="paytabs_error">خطأ</string>
+    <string name="paytabs_invalid_amount">كمية غير صحيحه</string>
+    <string name="paytabs_msg_payment_in_progress">جاري الدفع</string>
+    <string name="paytabs_msg_please_wait">انتظر من فضلك</string>
+    <string name="paytabs_msg_preparing_for_payments">جارى تحضير عملية الدفع</string>
+    <string name="paytabs_ok">موافق</string>
+    <string name="paytabs_pay_now">ادفع الان</string>
+    <string name="paytabs_start_payment_process">بدء عملية الدفع</string>
+    <string name="photos">الصور</string>
+    <string name="please_select_any_one">يرجى اختيار الشكل</string>
+    <string name="please_select_size_first">يرجى تحديد الحجم أولا.</string>
+    <string name="plus_sign">+</string>
+    <string name="point_products">نقطة المنتجات</string>
+    <string name="points">النقاط:</string>
+    <string name="popular_products">المنتجات الشعبية</string>
+    <string name="popularity">شعبية</string>
+    <string name="powered_by">مدعوم من</string>
+    <string name="prepaid_card">بطاقة مسبقة الدفع</string>
+    <string name="price">السعر</string>
+    <string name="proceed_to_pay">المضي قدما للدفع</string>
+    <string name="proceed_to_save">تابع للحفظ</string>
+    <string name="promo">قسية شراء</string>
+    <string name="promo_code_if_available">الرمز الترويجي (إن وجد)</string>
+    <string name="promo_error_2">تم استرداد قيمة القسيمة.</string>
+    <string name="promo_error_3">قسيمة غير صالح.</string>
+    <string name="promo_error_4">معلومات غير صالحة.</string>
+    <string name="quantity">كمية</string>
+    <string name="rated">مقدر</string>
+    <string name="ratings">تصنيفات</string>
+    <string name="recharge_date">تاريخ التسجيل</string>
+    <string name="recommended_dishes">أطباق الموصى بها</string>
+    <string name="redeem">خلص</string>
+    <string name="redeem_points">استبدال النقاط : </string>
+    <string name="referal_code_applied">تطبيق الكود</string>
+    <string name="reference_order_number">رقم المرجع :</string>
+    <string name="referred_friends">أحالة الأصدقاء</string>
+    <string name="region">منطقة</string>
+    <string name="register">تسجيل</string>
+    <string name="remove">إزالة</string>
+    <string name="resend_after">إعادة بعد </string>
+    <string name="resend_otp">إعادة إرسال OTP</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="restaurant_discount">خصم مطعم</string>
+    <string name="reviews">استعراض</string>
+    <string name="reward_points">إجمالي الإحالة</string>
+    <string name="sample_date">November 15, 2015</string>
+    <string name="sample_name">John Doe</string>
+    <string name="sample_number">0</string>
+    <string name="sample_text">Sample Text</string>
+    <string name="sample_text_huge">
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+</string>
+    <string name="sample_text_long">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+</string>
+    <string name="search_hint">ابحث عن طبقك هنا ..</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string name="select_add_ons">حدد الوظائف الإضافية</string>
+    <string name="select_city">اختار المدينة لبدأ التطبيق</string>
+    <string name="select_ingredients">حدد المكونات</string>
+    <string name="select_later_time_to_connect_order">حدد وقت لاحق لتوصيل الطلبية</string>
+    <string name="select_payment_mode">حدد طريقة الدفع</string>
+    <string name="select_region">اختر منطقتك</string>
+    <string name="set_your_location">حدد موقعك</string>
+    <string name="show_more">أظهر المزيد</string>
+    <string name="show_restaurants">مشاهدة مطاعم</string>
+    <string name="size">حجم</string>
+    <string name="skip">تخطى</string>
+    <string name="skip_login">تخطي تسجيل الدخول></string>
+    <string name="snack_retry">إعادة المحاولة</string>
+    <string name="sort">فرز</string>
+    <string name="staticTextForgotPassword">
+يرجى ادخال رقم الهاتف الذي كنت قد استخدمت للتسجيل مع عافيات. سوف نرسل لك الرسائل القصيرة التي تحتوي على رمز، والتي يمكنك استخدامها لتوليد كلمة المرور الجديدة الخاصة بك
+</string>
+    <string name="status">الحالة : </string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="submit">عرض</string>
+    <string name="subtotal">حاصل الجمع</string>
+    <string name="tap_to_select_city">انقر لتحديد المدينة</string>
+    <string name="title_activity_track_your_btn">خريطة</string>
+    <string name="title_add_address">اضف عنوان</string>
+    <string name="title_address">العنوان</string>
+    <string name="title_basket">السلة</string>
+    <string name="title_card_payment">بطاقة الدفع</string>
+    <string name="title_check_in">تسجيل الدخول أو التسجيل</string>
+    <string name="title_create_account">إصنع حساب</string>
+    <string name="title_delivery_payment">الدفع و التسليم</string>
+    <string name="title_forgot_password">هل نسيت كلمة المرور</string>
+    <string name="title_help_center">مركز المساعدة</string>
+    <string name="title_log_in">تسجيل الدخول</string>
+    <string name="title_menus">القوائم</string>
+    <string name="title_my_deals">عروضي</string>
+    <string name="title_my_orders">طلبياتي</string>
+    <string name="title_my_reviews">التعليقات و التقييم</string>
+    <string name="title_my_voucher">قسائمي الشرائيه</string>
+    <string name="title_my_voucher_detail">تفاصيل قسائم الشراء</string>
+    <string name="title_my_wallet">محفظتي</string>
+    <string name="title_notification">الإشعارات</string>
+    <string name="title_order_details">تفاصيل الطلب</string>
+    <string name="title_success">نجاح</string>
+    <string name="title_update_address">تحديث العناوين</string>
+    <string name="title_update_password">تحديث كلمة المرور</string>
+    <string name="title_update_profile">تحديث الملف</string>
+    <string name="to">إلى</string>
+    <string name="to_go_back"> رجوع</string>
+    <string name="total">مجموع</string>
+    <string name="total_amount">إجمالي آمت</string>
+    <string name="total_price">السعر الكلي</string>
+    <string name="total_qty">الكمية الإجمالية</string>
+    <string name="total_referral">مشاركة الاصدقاء</string>
+    <string name="track_driver_status">تتبع سائق الطلبية</string>
+    <string name="try_again">حاول ثانية</string>
+    <string name="txtCurrentStatus">طلبك هو</string>
+    <string name="txtInProcess">جاري التجهيز</string>
+    <string name="txtIntheway">فى الطريق</string>
+    <string name="update">تحديث</string>
+    <string name="verify_otp">تحقق من OTP</string>
+    <string name="view">عرض</string>
+    <string name="view_cart">عرض سلة الشراء></string>
+    <string name="voucher_discount">خصم : </string>
+    <string name="voucher_msg">
+لقد حصلت على قسيمة شراء من صديقك انقر على الرابط و اضف القسيمة الى حسابك و اذهب الى المطعم سوف تحصل على خصم مباشر من المطعم عند الشراء من داخل المطعم
+</string>
+    <string name="wallet_balance">محفظة النقود</string>
+    <string name="weighted_reviews_based_on_users.">المتوسط ​​المرجح على أساس المستخدمين.</string>
+    <string name="wocr_button_enter_card_number">أدخل تفاصيل البطاقة يدويا</string>
+    <string name="wocr_hint_position_card_in_frame">ضع بطاقتك في هذا الإطار</string>
+    <string name="wocr_powered_by_pay_cards"/>
+    <string name="wocr_toggle_flash"/>
+    <string name="write_your_review">أكتب مراجعة</string>
+    <string name="youAreNotUpdatedMessage">يوجد اصدار جديد من تطبيق عافيات نرجو التحديث </string>
+    <string name="youAreNotUpdatedTitle">التحديث متاح</string>
+    <string name="your_membership">عضويتك :</string>
+    <string name="your_name">اسمك</string>
+    <string name="your_order">طلبك</string>
+    <string name="your_order_will_reach_in">سيصل طلبك خلال:</string>
+    <string name="your_referral_code">رمز الإحالة الخاص بك:</string>
+</resources>

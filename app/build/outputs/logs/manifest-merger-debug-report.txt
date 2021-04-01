@@ -1,0 +1,1323 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/75804076611c06f685932bcf764d4b65/databinding-adapters-3.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/c3946f84564272dd8109a726f143f462/databinding-runtime-3.6.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.7] /home/nav180/.gradle/caches/transforms-2/files-2.1/df3dac6c82ebde133e1bad62325c5c56/aws-android-sdk-mobile-client-2.6.7/AndroidManifest.xml:2:1-4:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.31] /home/nav180/.gradle/caches/transforms-2/files-2.1/ce49c6b22e233d944f28fc939b779bc9/aws-android-sdk-auth-core-2.6.31/AndroidManifest.xml:2:1-4:80
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-38:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1ed9c9ac4f88df45729fecbc37466b74/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.android.volley:volley:1.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a9c3ffcda9f987c70f5f3d52dfb62b4/volley-1.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/323370d23d70e9aa36c9b6d1c39112a4/jetified-pagerslidingtabstrip-1.0.1/AndroidManifest.xml:1:1-5:12
+MERGED from [com.github.gcacace:signature-pad:1.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5aa656b67eef9985c25d24ec8581bd67/signature-pad-1.2.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/e3b62bf5a8df6c8dbccbfe5aac6ca25e/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/acc336aaa96bb7fa4eade5c7c5c209dc/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b7a8960872525cf20e68f7563414cce/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:facebook-android-sdk:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbced5feb77ebb9751f76753ad0ce922/facebook-android-sdk-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/18f8c9e1c24b62d6f7dfe6a631067802/jetified-facebook-login-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbd65da40692ae8633aed9db42866a1f/jetified-facebook-share-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:21:1-37:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/6b68eb2eb6315c921b2f2572926e0f4f/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.algolia:algoliasearch-android:3.27.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2005d0f94a713762ddc61dc00b10b5bc/jetified-algoliasearch-android-3.27.0/AndroidManifest.xml:24:1-35:12
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/587e35f71d746fda6aac65ff5d0d8c57/jetified-viewpagerdotsindicator-3.0.3/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/17b6b0b0fbd5799c7ec6faab66238b9d/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/05dde92bf3669454f7cc973cff62e700/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.iarcuschin:simpleratingbar:0.1.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/8f9245d8d698e6f5b8e8e63900c3a9b2/jetified-simpleratingbar-0.1.5/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/f56d000d2c91dd724d8095e86e13842c/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a50359c13bf8eedac7eff7167521147/timber-4.5.1/AndroidManifest.xml:2:1-10:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.23] /home/nav180/.gradle/caches/transforms-2/files-2.1/1019596e4c26afce89a76b5c7960e2f8/android-gif-drawable-1.2.23/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.shimmer:shimmer:0.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1a488580f4a1472f31ed602f977e9835/shimmer-0.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0452280eb73a973453d1252cc1011602/library-1.4.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/35c6658c2340a781fa35203d8e13ff1c/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b9dbe5b1290ddd81e34af010c1c56b8/circleimageview-3.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/042b3fc92d68ca5c8722a9892dbf38f7/firebase-analytics-17.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:2:1-24:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/fe7a9edfc6789817eccd21f5e3b563b6/rxandroid-2.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.github.dbachelder:CreditCardEntry:1.4.9] /home/nav180/.gradle/caches/transforms-2/files-2.1/d8c103284161321c9b849a940083fc46/jetified-CreditCardEntry-1.4.9/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/d8bf9087941cc68f4957a5cdf985af4f/jetified-viewbinding-3.6.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/78a2d0207b32375e4aba59f78a640e16/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0c42eb8c0dfc07dbc41fbd38dd78c23c/play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/f995105cc097c3fbb8bacf3866835574/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/c3905feef03bfdc332442b1dfbdcd404/firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1e358ed2243b6aaae93d519252d88d99/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0362d8ab2334ed37ff78bcc0cfc9f552/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/d0fa04fe4a0b315a363fff55fe668ea6/play-services-measurement-sdk-17.5.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/c65fbd65936dc553ea46d76f16be0e06/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2b045588580fa5db3d50ef4504b92c3d/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/a70180d5d5efdca9d65db1d6b89babff/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5f48cc2857e5f5d706106cb3fc3478c3/play-services-measurement-base-17.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/8bfd398b0a758386e5c06791458e1ee5/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/b6152cf54128562b4cb654c733beedad/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/063dca3617a54cb0bdbc811092682278/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/07f6266fa14ef4339bcab08b07278f81/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e3e3ff2d26b41af5e1c287d5efe75305/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/41ea2e19253f6d2b1dec4783a550438c/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e1a38104fa9fd7a8f0951ccea7b53c35/facebook-places-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2594dac0742fbfc018edf0dbcd030abe/jetified-facebook-applinks-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4bf021cc25961537e06e60aad9ceccb8/facebook-messenger-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:21:1-61:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/f753f21036a155fbe549b75e9a49ed6a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/614f8e8ce65d8769f2d113cd058a062c/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/48b2936e43d7d50ed9c524ff6f2b713b/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1c8987a4ccfbfa3c40896c44dbfd4264/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2ccbc20bc15198b7dd14344a9212e419/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/ce49f2375e2837d29d9db7e8681f2faf/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/eb3528a1d461d9da9486dac0c170af84/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/6f98314bc9fd77d8b6dbc411727ed079/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/900a9143290c48a2f54f7eeb9d6b1544/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebef89d6cf4da2392b87e27538ba1a4/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/425b9ba2ae0537841eaa260716c2bb9c/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e78147c415d3ab305ef7ba910fe42778/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/140736a586bbb50f77c00996921d4859/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1430eb4a2b3dfb579a52ec9cca114fdd/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/716404e4db2b758abb49f2c2eb232c09/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/80a4636ff732169cc61c183587694858/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/637d6be90c12eafbf21cadd6afafdd64/transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/8774ddaa41617a07a29b8a74fbf13fb7/firebase-encoders-json-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4cbf6e6005f66bae031601db5359ee87/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9aeebb26291a82e4d5c8d62ce2bcce6e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1a5cc2e52f5fc885b5d0d8cdc132a9c9/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0f0b0ec710e611128509aa56f7b03436/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/eb3939f5145f8eec4e7db87f420fe2b2/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/57cee584ecca14512bfdcdda9e162ec7/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/42f91884efc480572c0b1c7ddfd6c941/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/99951782a217424be1d3434c82170d9b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/dede8075b0b58dbf88f2ddea8a95eaff/firebase-components-16.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/58dc9690a3375a3eb4af3f8a54ef0331/relinker-1.4.1/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+	package
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/75804076611c06f685932bcf764d4b65/databinding-adapters-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/75804076611c06f685932bcf764d4b65/databinding-adapters-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/c3946f84564272dd8109a726f143f462/databinding-runtime-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/c3946f84564272dd8109a726f143f462/databinding-runtime-3.6.3/AndroidManifest.xml:22:5-44
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.31] /home/nav180/.gradle/caches/transforms-2/files-2.1/ce49c6b22e233d944f28fc939b779bc9/aws-android-sdk-auth-core-2.6.31/AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.31] /home/nav180/.gradle/caches/transforms-2/files-2.1/ce49c6b22e233d944f28fc939b779bc9/aws-android-sdk-auth-core-2.6.31/AndroidManifest.xml:4:1-69
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1ed9c9ac4f88df45729fecbc37466b74/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1ed9c9ac4f88df45729fecbc37466b74/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a9c3ffcda9f987c70f5f3d52dfb62b4/volley-1.1.0/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a9c3ffcda9f987c70f5f3d52dfb62b4/volley-1.1.0/AndroidManifest.xml:7:5-43
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/323370d23d70e9aa36c9b6d1c39112a4/jetified-pagerslidingtabstrip-1.0.1/AndroidManifest.xml:2:5-72
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/323370d23d70e9aa36c9b6d1c39112a4/jetified-pagerslidingtabstrip-1.0.1/AndroidManifest.xml:2:5-72
+MERGED from [com.github.gcacace:signature-pad:1.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5aa656b67eef9985c25d24ec8581bd67/signature-pad-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gcacace:signature-pad:1.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5aa656b67eef9985c25d24ec8581bd67/signature-pad-1.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/e3b62bf5a8df6c8dbccbfe5aac6ca25e/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/e3b62bf5a8df6c8dbccbfe5aac6ca25e/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/acc336aaa96bb7fa4eade5c7c5c209dc/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/acc336aaa96bb7fa4eade5c7c5c209dc/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b7a8960872525cf20e68f7563414cce/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b7a8960872525cf20e68f7563414cce/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbced5feb77ebb9751f76753ad0ce922/facebook-android-sdk-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbced5feb77ebb9751f76753ad0ce922/facebook-android-sdk-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/18f8c9e1c24b62d6f7dfe6a631067802/jetified-facebook-login-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/18f8c9e1c24b62d6f7dfe6a631067802/jetified-facebook-login-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbd65da40692ae8633aed9db42866a1f/jetified-facebook-share-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbd65da40692ae8633aed9db42866a1f/jetified-facebook-share-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/6b68eb2eb6315c921b2f2572926e0f4f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/6b68eb2eb6315c921b2f2572926e0f4f/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.algolia:algoliasearch-android:3.27.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2005d0f94a713762ddc61dc00b10b5bc/jetified-algoliasearch-android-3.27.0/AndroidManifest.xml:29:5-31:41
+MERGED from [com.algolia:algoliasearch-android:3.27.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2005d0f94a713762ddc61dc00b10b5bc/jetified-algoliasearch-android-3.27.0/AndroidManifest.xml:29:5-31:41
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/587e35f71d746fda6aac65ff5d0d8c57/jetified-viewpagerdotsindicator-3.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/587e35f71d746fda6aac65ff5d0d8c57/jetified-viewpagerdotsindicator-3.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/17b6b0b0fbd5799c7ec6faab66238b9d/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/17b6b0b0fbd5799c7ec6faab66238b9d/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/05dde92bf3669454f7cc973cff62e700/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/05dde92bf3669454f7cc973cff62e700/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.iarcuschin:simpleratingbar:0.1.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/8f9245d8d698e6f5b8e8e63900c3a9b2/jetified-simpleratingbar-0.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.iarcuschin:simpleratingbar:0.1.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/8f9245d8d698e6f5b8e8e63900c3a9b2/jetified-simpleratingbar-0.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/f56d000d2c91dd724d8095e86e13842c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/f56d000d2c91dd724d8095e86e13842c/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a50359c13bf8eedac7eff7167521147/timber-4.5.1/AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a50359c13bf8eedac7eff7167521147/timber-4.5.1/AndroidManifest.xml:6:5-43
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.23] /home/nav180/.gradle/caches/transforms-2/files-2.1/1019596e4c26afce89a76b5c7960e2f8/android-gif-drawable-1.2.23/AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.23] /home/nav180/.gradle/caches/transforms-2/files-2.1/1019596e4c26afce89a76b5c7960e2f8/android-gif-drawable-1.2.23/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.shimmer:shimmer:0.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1a488580f4a1472f31ed602f977e9835/shimmer-0.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.shimmer:shimmer:0.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1a488580f4a1472f31ed602f977e9835/shimmer-0.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0452280eb73a973453d1252cc1011602/library-1.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0452280eb73a973453d1252cc1011602/library-1.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/35c6658c2340a781fa35203d8e13ff1c/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/35c6658c2340a781fa35203d8e13ff1c/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b9dbe5b1290ddd81e34af010c1c56b8/circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b9dbe5b1290ddd81e34af010c1c56b8/circleimageview-3.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/042b3fc92d68ca5c8722a9892dbf38f7/firebase-analytics-17.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/042b3fc92d68ca5c8722a9892dbf38f7/firebase-analytics-17.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/fe7a9edfc6789817eccd21f5e3b563b6/rxandroid-2.1.0/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/fe7a9edfc6789817eccd21f5e3b563b6/rxandroid-2.1.0/AndroidManifest.xml:18:5-43
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dbachelder:CreditCardEntry:1.4.9] /home/nav180/.gradle/caches/transforms-2/files-2.1/d8c103284161321c9b849a940083fc46/jetified-CreditCardEntry-1.4.9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.dbachelder:CreditCardEntry:1.4.9] /home/nav180/.gradle/caches/transforms-2/files-2.1/d8c103284161321c9b849a940083fc46/jetified-CreditCardEntry-1.4.9/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/d8bf9087941cc68f4957a5cdf985af4f/jetified-viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/d8bf9087941cc68f4957a5cdf985af4f/jetified-viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/78a2d0207b32375e4aba59f78a640e16/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/78a2d0207b32375e4aba59f78a640e16/play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0c42eb8c0dfc07dbc41fbd38dd78c23c/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0c42eb8c0dfc07dbc41fbd38dd78c23c/play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/f995105cc097c3fbb8bacf3866835574/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/f995105cc097c3fbb8bacf3866835574/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/c3905feef03bfdc332442b1dfbdcd404/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/c3905feef03bfdc332442b1dfbdcd404/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1e358ed2243b6aaae93d519252d88d99/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1e358ed2243b6aaae93d519252d88d99/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0362d8ab2334ed37ff78bcc0cfc9f552/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0362d8ab2334ed37ff78bcc0cfc9f552/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/d0fa04fe4a0b315a363fff55fe668ea6/play-services-measurement-sdk-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/d0fa04fe4a0b315a363fff55fe668ea6/play-services-measurement-sdk-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/c65fbd65936dc553ea46d76f16be0e06/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/c65fbd65936dc553ea46d76f16be0e06/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2b045588580fa5db3d50ef4504b92c3d/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2b045588580fa5db3d50ef4504b92c3d/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/a70180d5d5efdca9d65db1d6b89babff/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/a70180d5d5efdca9d65db1d6b89babff/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5f48cc2857e5f5d706106cb3fc3478c3/play-services-measurement-base-17.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5f48cc2857e5f5d706106cb3fc3478c3/play-services-measurement-base-17.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/8bfd398b0a758386e5c06791458e1ee5/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/8bfd398b0a758386e5c06791458e1ee5/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/b6152cf54128562b4cb654c733beedad/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/b6152cf54128562b4cb654c733beedad/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/063dca3617a54cb0bdbc811092682278/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/063dca3617a54cb0bdbc811092682278/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/07f6266fa14ef4339bcab08b07278f81/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/07f6266fa14ef4339bcab08b07278f81/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e3e3ff2d26b41af5e1c287d5efe75305/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e3e3ff2d26b41af5e1c287d5efe75305/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/41ea2e19253f6d2b1dec4783a550438c/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/41ea2e19253f6d2b1dec4783a550438c/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e1a38104fa9fd7a8f0951ccea7b53c35/facebook-places-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e1a38104fa9fd7a8f0951ccea7b53c35/facebook-places-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2594dac0742fbfc018edf0dbcd030abe/jetified-facebook-applinks-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2594dac0742fbfc018edf0dbcd030abe/jetified-facebook-applinks-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4bf021cc25961537e06e60aad9ceccb8/facebook-messenger-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4bf021cc25961537e06e60aad9ceccb8/facebook-messenger-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/f753f21036a155fbe549b75e9a49ed6a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/f753f21036a155fbe549b75e9a49ed6a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/614f8e8ce65d8769f2d113cd058a062c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/614f8e8ce65d8769f2d113cd058a062c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/48b2936e43d7d50ed9c524ff6f2b713b/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/48b2936e43d7d50ed9c524ff6f2b713b/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1c8987a4ccfbfa3c40896c44dbfd4264/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1c8987a4ccfbfa3c40896c44dbfd4264/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2ccbc20bc15198b7dd14344a9212e419/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2ccbc20bc15198b7dd14344a9212e419/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/ce49f2375e2837d29d9db7e8681f2faf/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/ce49f2375e2837d29d9db7e8681f2faf/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/eb3528a1d461d9da9486dac0c170af84/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/eb3528a1d461d9da9486dac0c170af84/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/6f98314bc9fd77d8b6dbc411727ed079/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/6f98314bc9fd77d8b6dbc411727ed079/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/900a9143290c48a2f54f7eeb9d6b1544/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/900a9143290c48a2f54f7eeb9d6b1544/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebef89d6cf4da2392b87e27538ba1a4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebef89d6cf4da2392b87e27538ba1a4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/425b9ba2ae0537841eaa260716c2bb9c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/425b9ba2ae0537841eaa260716c2bb9c/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e78147c415d3ab305ef7ba910fe42778/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e78147c415d3ab305ef7ba910fe42778/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/140736a586bbb50f77c00996921d4859/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/140736a586bbb50f77c00996921d4859/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1430eb4a2b3dfb579a52ec9cca114fdd/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1430eb4a2b3dfb579a52ec9cca114fdd/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/716404e4db2b758abb49f2c2eb232c09/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/716404e4db2b758abb49f2c2eb232c09/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/80a4636ff732169cc61c183587694858/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/80a4636ff732169cc61c183587694858/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/637d6be90c12eafbf21cadd6afafdd64/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/637d6be90c12eafbf21cadd6afafdd64/transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/8774ddaa41617a07a29b8a74fbf13fb7/firebase-encoders-json-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/8774ddaa41617a07a29b8a74fbf13fb7/firebase-encoders-json-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4cbf6e6005f66bae031601db5359ee87/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4cbf6e6005f66bae031601db5359ee87/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9aeebb26291a82e4d5c8d62ce2bcce6e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9aeebb26291a82e4d5c8d62ce2bcce6e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1a5cc2e52f5fc885b5d0d8cdc132a9c9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1a5cc2e52f5fc885b5d0d8cdc132a9c9/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0f0b0ec710e611128509aa56f7b03436/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0f0b0ec710e611128509aa56f7b03436/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/eb3939f5145f8eec4e7db87f420fe2b2/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/eb3939f5145f8eec4e7db87f420fe2b2/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/57cee584ecca14512bfdcdda9e162ec7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/57cee584ecca14512bfdcdda9e162ec7/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/42f91884efc480572c0b1c7ddfd6c941/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/42f91884efc480572c0b1c7ddfd6c941/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/99951782a217424be1d3434c82170d9b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/99951782a217424be1d3434c82170d9b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/dede8075b0b58dbf88f2ddea8a95eaff/firebase-components-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/dede8075b0b58dbf88f2ddea8a95eaff/firebase-components-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/58dc9690a3375a3eb4af3f8a54ef0331/relinker-1.4.1/AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids.relinker:relinker:1.4.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/58dc9690a3375a3eb4af3f8a54ef0331/relinker-1.4.1/AndroidManifest.xml:5:5-43
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+	tools:overrideLibrary
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:15-59
+	android:targetSdkVersion
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+		INJECTED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:17:5-67
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-67
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-67
+MERGED from [com.algolia:algoliasearch-android:3.27.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2005d0f94a713762ddc61dc00b10b5bc/jetified-algoliasearch-android-3.27.0/AndroidManifest.xml:33:5-67
+MERGED from [com.algolia:algoliasearch-android:3.27.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2005d0f94a713762ddc61dc00b10b5bc/jetified-algoliasearch-android-3.27.0/AndroidManifest.xml:33:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:10:5-67
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:12:5-67
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:18:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:23:5-79
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:13:5-79
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:19:5-81
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:20:5-65
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-65
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:20:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:22:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:23:5-98
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:23:22-95
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/50ec53abfe93651f0845ac41491955e9/play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:25:22-79
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:26:5-69
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:26:22-66
+uses-permission#com.mysampleapp.permission.C2D_MESSAGE
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:30:5-32:47
+	android:protectionLevel
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:32:9-44
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:31:9-62
+application
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:34:5-374:19
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-36:19
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:5-36:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.android.volley:volley:1.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a9c3ffcda9f987c70f5f3d52dfb62b4/volley-1.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a9c3ffcda9f987c70f5f3d52dfb62b4/volley-1.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/323370d23d70e9aa36c9b6d1c39112a4/jetified-pagerslidingtabstrip-1.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.astuetz:pagerslidingtabstrip:1.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/323370d23d70e9aa36c9b6d1c39112a4/jetified-pagerslidingtabstrip-1.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.github.gcacace:signature-pad:1.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5aa656b67eef9985c25d24ec8581bd67/signature-pad-1.2.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.gcacace:signature-pad:1.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5aa656b67eef9985c25d24ec8581bd67/signature-pad-1.2.0/AndroidManifest.xml:11:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/e3b62bf5a8df6c8dbccbfe5aac6ca25e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/e3b62bf5a8df6c8dbccbfe5aac6ca25e/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b7a8960872525cf20e68f7563414cce/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b7a8960872525cf20e68f7563414cce/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbced5feb77ebb9751f76753ad0ce922/facebook-android-sdk-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbced5feb77ebb9751f76753ad0ce922/facebook-android-sdk-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/18f8c9e1c24b62d6f7dfe6a631067802/jetified-facebook-login-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/18f8c9e1c24b62d6f7dfe6a631067802/jetified-facebook-login-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbd65da40692ae8633aed9db42866a1f/jetified-facebook-share-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/dbd65da40692ae8633aed9db42866a1f/jetified-facebook-share-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/587e35f71d746fda6aac65ff5d0d8c57/jetified-viewpagerdotsindicator-3.0.3/AndroidManifest.xml:11:5-20
+MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3] /home/nav180/.gradle/caches/transforms-2/files-2.1/587e35f71d746fda6aac65ff5d0d8c57/jetified-viewpagerdotsindicator-3.0.3/AndroidManifest.xml:11:5-20
+MERGED from [com.iarcuschin:simpleratingbar:0.1.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/8f9245d8d698e6f5b8e8e63900c3a9b2/jetified-simpleratingbar-0.1.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.iarcuschin:simpleratingbar:0.1.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/8f9245d8d698e6f5b8e8e63900c3a9b2/jetified-simpleratingbar-0.1.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a50359c13bf8eedac7eff7167521147/timber-4.5.1/AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a50359c13bf8eedac7eff7167521147/timber-4.5.1/AndroidManifest.xml:8:5-20
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0452280eb73a973453d1252cc1011602/library-1.4.0/AndroidManifest.xml:11:5-20
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0452280eb73a973453d1252cc1011602/library-1.4.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/35c6658c2340a781fa35203d8e13ff1c/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/35c6658c2340a781fa35203d8e13ff1c/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e0b2aa34b5a9d1f56bc825812a56eebf/jetified-play-services-gcm-16.1.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/5ebeab54b1c1182099460d2eab9d146f/jetified-play-services-iid-16.0.1/AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b9dbe5b1290ddd81e34af010c1c56b8/circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4b9dbe5b1290ddd81e34af010c1c56b8/circleimageview-3.0.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/042b3fc92d68ca5c8722a9892dbf38f7/firebase-analytics-17.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/042b3fc92d68ca5c8722a9892dbf38f7/firebase-analytics-17.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:14:5-22:19
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:15:5-24:19
+MERGED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:15:5-24:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/f995105cc097c3fbb8bacf3866835574/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/f995105cc097c3fbb8bacf3866835574/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1e358ed2243b6aaae93d519252d88d99/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1e358ed2243b6aaae93d519252d88d99/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0362d8ab2334ed37ff78bcc0cfc9f552/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/0362d8ab2334ed37ff78bcc0cfc9f552/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/d0fa04fe4a0b315a363fff55fe668ea6/play-services-measurement-sdk-17.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/d0fa04fe4a0b315a363fff55fe668ea6/play-services-measurement-sdk-17.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/c65fbd65936dc553ea46d76f16be0e06/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/c65fbd65936dc553ea46d76f16be0e06/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2b045588580fa5db3d50ef4504b92c3d/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2b045588580fa5db3d50ef4504b92c3d/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/a70180d5d5efdca9d65db1d6b89babff/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/a70180d5d5efdca9d65db1d6b89babff/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5f48cc2857e5f5d706106cb3fc3478c3/play-services-measurement-base-17.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5f48cc2857e5f5d706106cb3fc3478c3/play-services-measurement-base-17.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/8bfd398b0a758386e5c06791458e1ee5/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/8bfd398b0a758386e5c06791458e1ee5/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e1a38104fa9fd7a8f0951ccea7b53c35/facebook-places-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/e1a38104fa9fd7a8f0951ccea7b53c35/facebook-places-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2594dac0742fbfc018edf0dbcd030abe/jetified-facebook-applinks-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2594dac0742fbfc018edf0dbcd030abe/jetified-facebook-applinks-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4bf021cc25961537e06e60aad9ceccb8/facebook-messenger-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/4bf021cc25961537e06e60aad9ceccb8/facebook-messenger-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:28:5-59:19
+MERGED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:28:5-59:19
+MERGED from [androidx.core:core:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/140736a586bbb50f77c00996921d4859/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/140736a586bbb50f77c00996921d4859/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/716404e4db2b758abb49f2c2eb232c09/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/716404e4db2b758abb49f2c2eb232c09/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/140736a586bbb50f77c00996921d4859/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:38:9-35
+	android:label
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:37:9-41
+	android:icon
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:36:9-43
+	android:allowBackup
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:35:9-35
+	android:theme
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:39:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:40:9-44
+activity#com.afieat.ini.AddressFromMapActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:41:9-42:54
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:42:13-52
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:41:19-57
+activity#com.afieat.ini.DeliveryPointActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:43:9-44:54
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:44:13-52
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:43:19-56
+activity#com.afieat.ini.PhoneOtpScreen
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:49:9-52
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:49:19-49
+activity#com.afieat.ini.PhoneRegistration
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:50:9-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:50:19-52
+activity#com.afieat.ini.PhoneActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:51:9-54:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:53:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:54:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:52:13-42
+uses-library#org.apache.http.legacy
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:56:9-58:40
+	android:required
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:57:13-50
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:72:9-74:55
+	android:value
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:74:13-52
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:73:13-58
+activity#com.facebook.FacebookActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:76:9-79:48
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:79:13-45
+	android:configChanges
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:78:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:77:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:80:9-91:20
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:82:13-36
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:81:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:83:13-90:29
+action#android.intent.action.VIEW
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:84:17-69
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:84:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:86:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:87:17-78
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:87:27-75
+data
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:17-75
+	android:host
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:169:21-46
+	android:scheme
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:23-72
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:93:9-95:55
+	android:value
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:95:13-52
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:94:13-58
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:123:9-132:20
+	android:exported
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:125:13-36
+	android:permission
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:126:13-73
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:124:13-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.mysampleapp
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:127:13-131:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:128:17-81
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:128:25-78
+category#com.mysampleapp
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:130:17-60
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:130:27-57
+activity#com.afieat.ini.SplashActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:134:9-144:20
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:136:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:138:13-55
+	android:theme
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:137:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:135:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:139:13-143:29
+action#android.intent.action.MAIN
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:140:17-69
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:140:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:142:17-77
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:142:27-74
+activity#com.afieat.ini.LocationActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:145:9-149:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:147:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:149:13-55
+	android:theme
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:148:13-65
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:146:13-45
+activity#com.afieat.ini.CheckInActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:150:9-153:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:152:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:153:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:151:13-44
+activity#com.afieat.ini.LoginActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:154:9-157:55
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:156:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:157:13-52
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:155:13-42
+activity#com.afieat.ini.SignUpActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:158:9-175:20
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:160:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:161:13-52
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:159:13-43
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:afieat.com+data:host:afieat.com+data:scheme:http+data:scheme:https
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:162:13-174:29
+	android:autoVerify
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:162:28-53
+activity#com.afieat.ini.MainActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:176:9-179:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:178:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:179:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:177:13-41
+activity#com.afieat.ini.RestaurantsDetailActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:180:9-184:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:182:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:184:13-55
+	android:theme
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:183:13-81
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:181:13-54
+activity#com.afieat.ini.FoodAddBasketActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:185:9-188:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:187:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:188:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:186:13-50
+activity#com.afieat.ini.BasketActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:189:9-192:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:191:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:192:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:190:13-43
+activity#com.afieat.ini.PaymentActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:193:9-196:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:195:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:196:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:194:13-44
+activity#com.afieat.ini.AddressSelectionActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:197:9-200:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:199:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:200:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:198:13-53
+activity#com.afieat.ini.PaymentSuccessActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:201:9-204:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:203:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:204:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:202:13-51
+activity#com.afieat.ini.AddressAddActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:205:9-208:55
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:207:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:208:13-52
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:206:13-47
+meta-data#io.fabric.ApiKey
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:214:9-216:72
+	android:value
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:216:13-69
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:215:13-44
+meta-data#preloaded_fonts
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:217:9-219:57
+	android:resource
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:219:13-54
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:218:13-43
+activity#com.afieat.ini.WalletActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:221:9-224:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:223:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:224:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:222:13-43
+activity#com.afieat.ini.ProfileActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:225:9-228:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:227:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:228:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:226:13-44
+activity#com.afieat.ini.ChangePasswordActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:229:9-232:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:231:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:232:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:230:13-51
+activity#com.afieat.ini.ReviewsActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:233:9-236:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:235:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:236:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:234:13-44
+activity#com.afieat.ini.OrdersActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:237:9-240:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:239:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:240:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:238:13-43
+activity#com.afieat.ini.RestaurantListActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:241:9-244:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:243:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:244:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:242:13-51
+activity#com.afieat.ini.SearchActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:245:9-248:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:247:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:248:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:246:13-43
+activity#com.afieat.ini.ViewOnlineSearchActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:249:9-252:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:251:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:252:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:250:13-53
+activity#com.afieat.ini.CategoryListActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:253:9-256:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:255:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:256:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:254:13-49
+activity#com.afieat.ini.LanguageSelectionActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:257:9-260:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:259:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:260:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:258:13-54
+activity#com.afieat.ini.OrderDetailsActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:261:9-264:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:263:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:264:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:262:13-49
+activity#com.afieat.ini.CardPaymentActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:265:9-268:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:267:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:268:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:266:13-48
+activity#com.afieat.ini.BasketActivity2
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:269:9-272:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:271:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:272:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:270:13-44
+activity#com.afieat.ini.NotificationActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:273:9-276:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:275:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:276:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:274:13-49
+activity#com.afieat.ini.HelpCenterActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:277:9-280:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:279:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:280:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:278:13-47
+activity#com.afieat.ini.ChatCenterActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:281:9-284:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:283:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:284:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:282:13-47
+service#com.afieat.ini.services.MyFirebaseInstanceIDService
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:286:9-290:19
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:286:18-70
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:287:13-289:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:288:17-80
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:288:25-77
+service#com.afieat.ini.services.MyFirebaseMessagingService
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:291:9-295:19
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:291:18-69
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:292:13-294:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:293:17-78
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:293:25-75
+activity#com.afieat.ini.ForgotPasswordActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:297:9-300:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:299:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:300:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:298:13-51
+activity#com.afieat.ini.ResetPasswordActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:301:9-303:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:303:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:302:13-50
+activity#com.afieat.ini.TrackYourOrderActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:304:9-60
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:304:19-57
+activity#com.afieat.ini.DealsActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:305:9-308:47
+	android:label
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:307:13-57
+	android:theme
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:308:13-44
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:306:13-42
+activity#com.afieat.ini.CustomerReviewActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:309:9-312:58
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:311:13-49
+	android:windowSoftInputMode
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:312:13-55
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:310:13-51
+activity#com.afieat.ini.FullScreenImageDisplay
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:313:9-316:54
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:315:13-49
+	android:theme
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:316:13-51
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:314:13-51
+activity#com.afieat.ini.ProductDetailedActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:317:9-319:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:319:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:318:13-52
+activity#com.afieat.ini.DetailActivityClick_Page
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:320:9-322:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:322:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:321:13-53
+activity#com.afieat.ini.LocationDrawerActivityNew
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:323:9-325:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:325:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:324:13-54
+activity#com.afieat.ini.VoucherActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:326:9-358:20
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:328:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:327:13-44
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:www.afieat.com+data:host:www.afieat.com+data:scheme:http+data:scheme:https
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:329:13-341:29
+	android:autoVerify
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:329:28-53
+activity#com.afieat.ini.AboutusActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:359:9-361:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:361:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:360:13-44
+activity#com.afieat.ini.VoucherDetailActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:362:9-364:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:364:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:363:13-50
+activity#com.afieat.ini.FavouriteListActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:365:9-367:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:367:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:366:13-50
+activity#com.afieat.ini.MyPoints
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:368:9-370:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:370:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:369:13-37
+activity#com.afieat.ini.ReviewActivity
+ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:371:9-373:52
+	android:screenOrientation
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:373:13-49
+	android:name
+		ADDED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:372:13-43
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12 reason: com.amazonaws.mobile.client has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:2:1-376:12 reason: com.amazonaws.mobile.client requested WRITE_EXTERNAL_STORAGE
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-80
+MERGED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-80
+uses-feature#android.hardware.camera
+ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-60
+	android:name
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:19-67
+uses-feature#android.hardware.camera.flash
+ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-53
+activity#com.vlk.multimager.activities.GalleryActivity
+ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-30:20
+	android:configChanges
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-103
+	android:theme
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-63
+	android:name
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+activity#com.vlk.multimager.activities.MultiCameraActivity
+ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-35:20
+	android:screenOrientation
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-49
+	android:theme
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-63
+	android:name
+		ADDED from [:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-77
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:33:19-68
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:12:9-14:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/8bfd398b0a758386e5c06791458e1ee5/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /home/nav180/.gradle/caches/transforms-2/files-2.1/8bfd398b0a758386e5c06791458e1ee5/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:14:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:13:13-58
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:17:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:16:13-84
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:19:17-115
+activity#com.paytabs.paytabs_sdk.payment.ui.activities.PayTabActivity
+ADDED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:16:9-19:66
+	android:screenOrientation
+		ADDED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:18:13-49
+	android:theme
+		ADDED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:19:13-63
+	android:name
+		ADDED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:17:13-88
+activity#com.paytabs.paytabs_sdk.payment.ui.activities.SecurePaymentActivity
+ADDED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:20:9-23:66
+	android:screenOrientation
+		ADDED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:22:13-49
+	android:theme
+		ADDED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:23:13-63
+	android:name
+		ADDED from [:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:21:13-95
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/2e5043783dfdab75704b45b795e418bf/play-services-measurement-impl-17.5.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:48:25-92
+receiver#com.facebook.CampaignTrackingReceiver
+ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:52:13-65
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:55:13-57:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:56:17-79
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:56:25-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:33:13-132

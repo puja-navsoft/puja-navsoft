@@ -1,0 +1,991 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.afieat.ini"
+4    android:versionCode="76"
+5    android:versionName="3.6.0" >
+6
+7    <uses-sdk
+7-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+8        android:minSdkVersion="16"
+8-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+9        android:targetSdkVersion="29" />
+9-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:6:5-62
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <!--
+16        <permission
+17        android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE"
+18        android:protectionLevel="signature" />
+19    -->
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:17:5-67
+20-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:17:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:18:5-79
+21-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:18:22-76
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:19:5-81
+22-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:19:22-78
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:20:5-65
+23-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:20:22-62
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:21:5-78
+24-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:21:22-76
+25    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE" /> -->
+25-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:22:5-81
+25-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:22:22-78
+26    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+26-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:23:5-98
+26-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:23:22-95
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:24:5-68
+27-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:24:22-65
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:25:5-82
+28-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:25:22-79
+29    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE"/> -->
+29-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:26:5-69
+29-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:26:22-66
+30    <!-- <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/> -->
+31    <!-- <uses-permission android:name="android.permission.RECEIVE_SMS"/> -->
+32    <!-- <uses-permission android:name="android.permission.WRITE_SMS"/> -->
+33    <uses-permission
+33-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:30:5-32:47
+34        android:name="com.mysampleapp.permission.C2D_MESSAGE"
+34-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:31:9-62
+35        android:protectionLevel="signature" />
+35-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:32:9-44
+36    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+38
+39    <uses-feature android:name="android.hardware.camera" />
+39-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-60
+39-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:19-57
+40    <uses-feature android:name="android.hardware.camera.autofocus" />
+40-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-70
+40-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:19-67
+41    <uses-feature
+41-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-19:36
+42        android:name="android.hardware.camera.flash"
+42-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-53
+43        android:required="false" />
+43-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-33
+44    <uses-feature
+44-->[com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+45        android:glEsVersion="0x00020000"
+45-->[com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+46        android:required="true" />
+46-->[com.google.android.gms:play-services-maps:16.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/58ea0fcb9c1835276d20c56b8b506d18/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+47
+48    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+48-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+48-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+49
+50    <application
+50-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:34:5-374:19
+51        android:name="androidx.multidex.MultiDexApplication"
+52        android:allowBackup="true"
+52-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:35:9-35
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/140736a586bbb50f77c00996921d4859/core-1.0.0/AndroidManifest.xml:22:18-86
+54        android:debuggable="true"
+55        android:icon="@mipmap/ic_launcher"
+55-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:36:9-43
+56        android:label="@string/app_name"
+56-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:37:9-41
+57        android:supportsRtl="true"
+57-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:38:9-35
+58        android:testOnly="true"
+59        android:theme="@style/AppTheme"
+59-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:39:9-40
+60        android:usesCleartextTraffic="true" >
+60-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:40:9-44
+61        <activity
+61-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:41:9-42:54
+62            android:name="com.afieat.ini.AddressFromMapActivity"
+62-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:41:19-57
+63            android:windowSoftInputMode="adjustPan" />
+63-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:42:13-52
+64        <activity
+64-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:43:9-44:54
+65            android:name="com.afieat.ini.DeliveryPointActivity"
+65-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:43:19-56
+66            android:windowSoftInputMode="adjustPan" /> <!-- <receiver android:name=".services.OtpReceiver"> -->
+66-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:44:13-52
+67        <!-- <intent-filter> -->
+68        <!-- <action android:name="android.provider.Telephony.SMS_RECEIVED"/> -->
+69        <!-- </intent-filter> -->
+70        <!-- </receiver> -->
+71        <activity android:name="com.afieat.ini.PhoneOtpScreen" />
+71-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:49:9-52
+71-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:49:19-49
+72        <activity android:name="com.afieat.ini.PhoneRegistration" />
+72-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:50:9-55
+72-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:50:19-52
+73        <activity
+73-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:51:9-54:58
+74            android:name="com.afieat.ini.PhoneActivity"
+74-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:52:13-42
+75            android:screenOrientation="portrait"
+75-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:53:13-49
+76            android:windowSoftInputMode="adjustResize" />
+76-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:54:13-55
+77
+78        <uses-library
+78-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:56:9-58:40
+79            android:name="org.apache.http.legacy"
+79-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:57:13-50
+80            android:required="false" />
+80-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:58:13-37
+81        <!--
+82             The API key for Google Maps-based APIs is defined as a string resource.
+83             (See the file "res/values/google_maps_api.xml").
+84             Note that the API key is linked to the encryption key used to sign the APK.
+85             You need a different API key for each encryption key, including the release key that is used to
+86             sign the APK for publishing.
+87             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+88        -->
+89        <!--
+90<meta-data
+91            android:name="com.google.android.geo.API_KEY"
+92            android:value="AIzaSyDzVJ_z7IQf9zpZQmVJm7Hq8GMAiMoe-vc"/>
+93        -->
+94        <meta-data
+94-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:72:9-74:55
+95            android:name="com.google.android.geo.API_KEY"
+95-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:73:13-58
+96            android:value="@string/google_maps_key" />
+96-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:74:13-52
+97
+98        <activity
+98-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:76:9-79:48
+99            android:name="com.facebook.FacebookActivity"
+99-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:77:13-57
+100            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+100-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:78:13-96
+101            android:label="@string/app_name"
+101-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:79:13-45
+102            android:theme="@style/com_facebook_activity_theme" />
+102-->[com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:32:13-63
+103        <activity
+103-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:80:9-91:20
+104            android:name="com.facebook.CustomTabActivity"
+104-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:81:13-58
+105            android:exported="true" >
+105-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:82:13-36
+106            <intent-filter>
+106-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:83:13-90:29
+107                <action android:name="android.intent.action.VIEW" />
+107-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:84:17-69
+107-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:84:25-66
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:86:17-76
+109-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:86:27-73
+110                <category android:name="android.intent.category.BROWSABLE" />
+110-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:87:17-78
+110-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:87:27-75
+111
+112                <data android:scheme="@string/fb_login_protocol_scheme" />
+112-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:17-75
+112-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:23-72
+113            </intent-filter>
+114        </activity>
+115
+116        <meta-data
+116-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:93:9-95:55
+117            android:name="com.facebook.sdk.ApplicationId"
+117-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:94:13-58
+118            android:value="@string/facebook_app_id" />
+118-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:95:13-52
+119        <!--
+120 <activity
+121             android:name=".MapsActivity"
+122             android:label="@string/title_activity_maps">
+123         </activity>
+124        -->
+125        <!--
+126        <receiver
+127            android:name="com.amazonaws.mobileconnectors.pinpoint.targeting.notification.PinpointNotificationReceiver"
+128            android:exported="false" >
+129            <intent-filter>
+130                <action android:name="com.amazonaws.intent.fcm.NOTIFICATION_OPEN" />
+131            </intent-filter>
+132        </receiver>
+133        -->
+134        <!--
+135        <receiver
+136            android:name="com.google.android.gms.gcm.GcmReceiver"
+137            android:exported="true"
+138            android:permission="com.google.android.c2dm.permission.SEND">
+139            <intent-filter>
+140                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+141
+142                <category android:name="com.github.hathibelagal.pn" />
+143            </intent-filter>
+144        </receiver
+145        -->
+146        <receiver
+146-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:123:9-132:20
+147            android:name="com.google.android.gms.gcm.GcmReceiver"
+147-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:124:13-66
+148            android:exported="true"
+148-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:125:13-36
+149            android:permission="com.google.android.c2dm.permission.SEND" >
+149-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:126:13-73
+150            <intent-filter>
+150-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:127:13-131:29
+151                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+151-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:128:17-81
+151-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:128:25-78
+152
+153                <category android:name="com.mysampleapp" />
+153-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:130:17-60
+153-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:130:27-57
+154            </intent-filter>
+155        </receiver>
+156
+157        <activity
+157-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:134:9-144:20
+158            android:name="com.afieat.ini.SplashActivity"
+158-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:135:13-43
+159            android:screenOrientation="portrait"
+159-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:136:13-49
+160            android:theme="@style/AppTheme.Fullscreen"
+160-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:137:13-55
+161            android:windowSoftInputMode="adjustResize" >
+161-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:138:13-55
+162            <intent-filter>
+162-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:139:13-143:29
+163                <action android:name="android.intent.action.MAIN" />
+163-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:140:17-69
+163-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:140:25-66
+164
+165                <category android:name="android.intent.category.LAUNCHER" />
+165-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:142:17-77
+165-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:142:27-74
+166            </intent-filter>
+167        </activity>
+168        <activity
+168-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:145:9-149:58
+169            android:name="com.afieat.ini.LocationActivity"
+169-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:146:13-45
+170            android:screenOrientation="portrait"
+170-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:147:13-49
+171            android:theme="@style/AppTheme.TransparentStatusbar"
+171-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:148:13-65
+172            android:windowSoftInputMode="adjustResize" />
+172-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:149:13-55
+173        <activity
+173-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:150:9-153:58
+174            android:name="com.afieat.ini.CheckInActivity"
+174-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:151:13-44
+175            android:screenOrientation="portrait"
+175-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:152:13-49
+176            android:windowSoftInputMode="adjustResize" />
+176-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:153:13-55
+177        <activity
+177-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:154:9-157:55
+178            android:name="com.afieat.ini.LoginActivity"
+178-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:155:13-42
+179            android:screenOrientation="portrait"
+179-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:156:13-49
+180            android:windowSoftInputMode="adjustPan" />
+180-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:157:13-52
+181        <activity
+181-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:158:9-175:20
+182            android:name="com.afieat.ini.SignUpActivity"
+182-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:159:13-43
+183            android:screenOrientation="portrait"
+183-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:160:13-49
+184            android:windowSoftInputMode="adjustPan" >
+184-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:161:13-52
+185            <intent-filter android:autoVerify="true" >
+185-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:162:13-174:29
+185-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:162:28-53
+186                <action android:name="android.intent.action.VIEW" />
+186-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:84:17-69
+186-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:84:25-66
+187
+188                <category android:name="android.intent.category.DEFAULT" />
+188-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:86:17-76
+188-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:86:27-73
+189                <category android:name="android.intent.category.BROWSABLE" />
+189-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:87:17-78
+189-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:87:27-75
+190
+191                <data
+191-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:17-75
+192                    android:host="afieat.com"
+192-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:169:21-46
+193                    android:scheme="http" />
+193-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:23-72
+194                <data
+194-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:17-75
+195                    android:host="afieat.com"
+195-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:169:21-46
+196                    android:scheme="https" />
+196-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:23-72
+197            </intent-filter>
+198        </activity>
+199        <activity
+199-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:176:9-179:58
+200            android:name="com.afieat.ini.MainActivity"
+200-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:177:13-41
+201            android:screenOrientation="portrait"
+201-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:178:13-49
+202            android:windowSoftInputMode="adjustResize" />
+202-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:179:13-55
+203        <activity
+203-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:180:9-184:58
+204            android:name="com.afieat.ini.RestaurantsDetailActivity"
+204-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:181:13-54
+205            android:screenOrientation="portrait"
+205-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:182:13-49
+206            android:theme="@style/AppTheme.NoActionBarRestaurantsDetailActivity"
+206-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:183:13-81
+207            android:windowSoftInputMode="adjustResize" />
+207-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:184:13-55
+208        <activity
+208-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:185:9-188:58
+209            android:name="com.afieat.ini.FoodAddBasketActivity"
+209-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:186:13-50
+210            android:screenOrientation="portrait"
+210-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:187:13-49
+211            android:windowSoftInputMode="adjustResize" />
+211-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:188:13-55
+212        <activity
+212-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:189:9-192:58
+213            android:name="com.afieat.ini.BasketActivity"
+213-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:190:13-43
+214            android:screenOrientation="portrait"
+214-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:191:13-49
+215            android:windowSoftInputMode="adjustResize" />
+215-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:192:13-55
+216        <activity
+216-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:193:9-196:58
+217            android:name="com.afieat.ini.PaymentActivity"
+217-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:194:13-44
+218            android:screenOrientation="portrait"
+218-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:195:13-49
+219            android:windowSoftInputMode="adjustResize" />
+219-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:196:13-55
+220        <activity
+220-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:197:9-200:58
+221            android:name="com.afieat.ini.AddressSelectionActivity"
+221-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:198:13-53
+222            android:screenOrientation="portrait"
+222-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:199:13-49
+223            android:windowSoftInputMode="adjustResize" />
+223-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:200:13-55
+224        <activity
+224-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:201:9-204:58
+225            android:name="com.afieat.ini.PaymentSuccessActivity"
+225-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:202:13-51
+226            android:screenOrientation="portrait"
+226-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:203:13-49
+227            android:windowSoftInputMode="adjustResize" />
+227-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:204:13-55
+228        <activity
+228-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:205:9-208:55
+229            android:name="com.afieat.ini.AddressAddActivity"
+229-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:206:13-47
+230            android:screenOrientation="portrait"
+230-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:207:13-49
+231            android:windowSoftInputMode="adjustPan" />
+231-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:208:13-52
+232        <!--
+233 <meta-data
+234            android:name="com.google.android.gms.version"
+235            android:value="@integer/google_play_services_version" />
+236        -->
+237        <meta-data
+237-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:214:9-216:72
+238            android:name="io.fabric.ApiKey"
+238-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:215:13-44
+239            android:value="00db1cf1d64cab06ca7932ab2e65b94dc55f56a2" />
+239-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:216:13-69
+240        <meta-data
+240-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:217:9-219:57
+241            android:name="preloaded_fonts"
+241-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:218:13-43
+242            android:resource="@array/preloaded_fonts" />
+242-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:219:13-54
+243
+244        <activity
+244-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:221:9-224:58
+245            android:name="com.afieat.ini.WalletActivity"
+245-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:222:13-43
+246            android:screenOrientation="portrait"
+246-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:223:13-49
+247            android:windowSoftInputMode="adjustResize" />
+247-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:224:13-55
+248        <activity
+248-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:225:9-228:58
+249            android:name="com.afieat.ini.ProfileActivity"
+249-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:226:13-44
+250            android:screenOrientation="portrait"
+250-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:227:13-49
+251            android:windowSoftInputMode="adjustResize" />
+251-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:228:13-55
+252        <activity
+252-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:229:9-232:58
+253            android:name="com.afieat.ini.ChangePasswordActivity"
+253-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:230:13-51
+254            android:screenOrientation="portrait"
+254-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:231:13-49
+255            android:windowSoftInputMode="adjustResize" />
+255-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:232:13-55
+256        <activity
+256-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:233:9-236:58
+257            android:name="com.afieat.ini.ReviewsActivity"
+257-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:234:13-44
+258            android:screenOrientation="portrait"
+258-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:235:13-49
+259            android:windowSoftInputMode="adjustResize" />
+259-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:236:13-55
+260        <activity
+260-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:237:9-240:58
+261            android:name="com.afieat.ini.OrdersActivity"
+261-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:238:13-43
+262            android:screenOrientation="portrait"
+262-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:239:13-49
+263            android:windowSoftInputMode="adjustResize" />
+263-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:240:13-55
+264        <activity
+264-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:241:9-244:58
+265            android:name="com.afieat.ini.RestaurantListActivity"
+265-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:242:13-51
+266            android:screenOrientation="portrait"
+266-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:243:13-49
+267            android:windowSoftInputMode="adjustResize" />
+267-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:244:13-55
+268        <activity
+268-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:245:9-248:58
+269            android:name="com.afieat.ini.SearchActivity"
+269-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:246:13-43
+270            android:screenOrientation="portrait"
+270-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:247:13-49
+271            android:windowSoftInputMode="adjustResize" />
+271-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:248:13-55
+272        <activity
+272-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:249:9-252:58
+273            android:name="com.afieat.ini.ViewOnlineSearchActivity"
+273-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:250:13-53
+274            android:screenOrientation="portrait"
+274-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:251:13-49
+275            android:windowSoftInputMode="adjustResize" />
+275-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:252:13-55
+276        <activity
+276-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:253:9-256:58
+277            android:name="com.afieat.ini.CategoryListActivity"
+277-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:254:13-49
+278            android:screenOrientation="portrait"
+278-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:255:13-49
+279            android:windowSoftInputMode="adjustResize" />
+279-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:256:13-55
+280        <activity
+280-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:257:9-260:58
+281            android:name="com.afieat.ini.LanguageSelectionActivity"
+281-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:258:13-54
+282            android:screenOrientation="portrait"
+282-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:259:13-49
+283            android:windowSoftInputMode="adjustResize" />
+283-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:260:13-55
+284        <activity
+284-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:261:9-264:58
+285            android:name="com.afieat.ini.OrderDetailsActivity"
+285-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:262:13-49
+286            android:screenOrientation="portrait"
+286-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:263:13-49
+287            android:windowSoftInputMode="adjustResize" />
+287-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:264:13-55
+288        <activity
+288-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:265:9-268:58
+289            android:name="com.afieat.ini.CardPaymentActivity"
+289-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:266:13-48
+290            android:screenOrientation="portrait"
+290-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:267:13-49
+291            android:windowSoftInputMode="adjustResize" />
+291-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:268:13-55
+292        <activity
+292-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:269:9-272:58
+293            android:name="com.afieat.ini.BasketActivity2"
+293-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:270:13-44
+294            android:screenOrientation="portrait"
+294-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:271:13-49
+295            android:windowSoftInputMode="adjustResize" />
+295-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:272:13-55
+296        <activity
+296-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:273:9-276:58
+297            android:name="com.afieat.ini.NotificationActivity"
+297-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:274:13-49
+298            android:screenOrientation="portrait"
+298-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:275:13-49
+299            android:windowSoftInputMode="adjustResize" />
+299-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:276:13-55
+300        <activity
+300-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:277:9-280:58
+301            android:name="com.afieat.ini.HelpCenterActivity"
+301-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:278:13-47
+302            android:screenOrientation="portrait"
+302-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:279:13-49
+303            android:windowSoftInputMode="adjustResize" />
+303-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:280:13-55
+304        <activity
+304-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:281:9-284:58
+305            android:name="com.afieat.ini.ChatCenterActivity"
+305-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:282:13-47
+306            android:screenOrientation="portrait"
+306-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:283:13-49
+307            android:windowSoftInputMode="adjustResize" />
+307-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:284:13-55
+308
+309        <service android:name="com.afieat.ini.services.MyFirebaseInstanceIDService" >
+309-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:286:9-290:19
+309-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:286:18-70
+310            <intent-filter>
+310-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:287:13-289:29
+311                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+311-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:288:17-80
+311-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:288:25-77
+312            </intent-filter>
+313        </service>
+314        <service android:name="com.afieat.ini.services.MyFirebaseMessagingService" >
+314-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:291:9-295:19
+314-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:291:18-69
+315            <intent-filter>
+315-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:292:13-294:29
+316                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+316-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:293:17-78
+316-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:293:25-75
+317            </intent-filter>
+318        </service>
+319
+320        <activity
+320-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:297:9-300:58
+321            android:name="com.afieat.ini.ForgotPasswordActivity"
+321-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:298:13-51
+322            android:screenOrientation="portrait"
+322-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:299:13-49
+323            android:windowSoftInputMode="adjustResize" />
+323-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:300:13-55
+324        <activity
+324-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:301:9-303:52
+325            android:name="com.afieat.ini.ResetPasswordActivity"
+325-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:302:13-50
+326            android:screenOrientation="portrait" />
+326-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:303:13-49
+327        <activity android:name="com.afieat.ini.TrackYourOrderActivity" />
+327-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:304:9-60
+327-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:304:19-57
+328        <activity
+328-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:305:9-308:47
+329            android:name="com.afieat.ini.DealsActivity"
+329-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:306:13-42
+330            android:label="@string/title_activity_deals"
+330-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:307:13-57
+331            android:theme="@style/AppTheme" />
+331-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:308:13-44
+332        <activity
+332-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:309:9-312:58
+333            android:name="com.afieat.ini.CustomerReviewActivity"
+333-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:310:13-51
+334            android:screenOrientation="portrait"
+334-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:311:13-49
+335            android:windowSoftInputMode="adjustResize" />
+335-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:312:13-55
+336        <activity
+336-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:313:9-316:54
+337            android:name="com.afieat.ini.FullScreenImageDisplay"
+337-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:314:13-51
+338            android:screenOrientation="portrait"
+338-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:315:13-49
+339            android:theme="@style/ImageScreeTheme" />
+339-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:316:13-51
+340        <activity
+340-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:317:9-319:52
+341            android:name="com.afieat.ini.ProductDetailedActivity"
+341-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:318:13-52
+342            android:screenOrientation="portrait" />
+342-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:319:13-49
+343        <activity
+343-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:320:9-322:52
+344            android:name="com.afieat.ini.DetailActivityClick_Page"
+344-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:321:13-53
+345            android:screenOrientation="portrait" />
+345-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:322:13-49
+346        <activity
+346-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:323:9-325:52
+347            android:name="com.afieat.ini.LocationDrawerActivityNew"
+347-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:324:13-54
+348            android:screenOrientation="portrait" />
+348-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:325:13-49
+349        <activity
+349-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:326:9-358:20
+350            android:name="com.afieat.ini.VoucherActivity"
+350-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:327:13-44
+351            android:screenOrientation="portrait" >
+351-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:328:13-49
+352            <intent-filter android:autoVerify="true" >
+352-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:329:13-341:29
+352-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:329:28-53
+353                <action android:name="android.intent.action.VIEW" />
+353-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:84:17-69
+353-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:84:25-66
+354
+355                <category android:name="android.intent.category.DEFAULT" />
+355-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:86:17-76
+355-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:86:27-73
+356                <category android:name="android.intent.category.BROWSABLE" />
+356-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:87:17-78
+356-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:87:27-75
+357
+358                <data
+358-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:17-75
+359                    android:host="www.afieat.com"
+359-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:169:21-46
+360                    android:scheme="http" />
+360-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:23-72
+361                <data
+361-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:17-75
+362                    android:host="www.afieat.com"
+362-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:169:21-46
+363                    android:scheme="https" />
+363-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:89:23-72
+364            </intent-filter>
+365            <!--
+366            <intent-filter>
+367                <action android:name="android.intent.action.VIEW"></action>
+368
+369                <category android:name="android.intent.category.DEFAULT"></category>
+370                <category android:name="android.intent.category.BROWSABLE"></category>
+371
+372                &lt;!&ndash;http://www.com.afieat.ini/voucher.&ndash;&gt;
+373                <data
+374                    android:host="/ymnf9.app.goo.gl/"
+375                    android:scheme="https"></data>
+376                <data
+377                    android:host="/ymnf9.app.goo.gl/"
+378                    android:scheme="http"></data>
+379            </intent-filter>
+380            -->
+381        </activity>
+382        <activity
+382-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:359:9-361:52
+383            android:name="com.afieat.ini.AboutusActivity"
+383-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:360:13-44
+384            android:screenOrientation="portrait" />
+384-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:361:13-49
+385        <activity
+385-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:362:9-364:52
+386            android:name="com.afieat.ini.VoucherDetailActivity"
+386-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:363:13-50
+387            android:screenOrientation="portrait" />
+387-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:364:13-49
+388        <activity
+388-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:365:9-367:52
+389            android:name="com.afieat.ini.FavouriteListActivity"
+389-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:366:13-50
+390            android:screenOrientation="portrait" />
+390-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:367:13-49
+391        <activity
+391-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:368:9-370:52
+392            android:name="com.afieat.ini.MyPoints"
+392-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:369:13-37
+393            android:screenOrientation="portrait" />
+393-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:370:13-49
+394        <activity
+394-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:371:9-373:52
+395            android:name="com.afieat.ini.ReviewActivity"
+395-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:372:13-43
+396            android:screenOrientation="portrait" />
+396-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:373:13-49
+397        <activity
+397-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-30:20
+398            android:name="com.vlk.multimager.activities.GalleryActivity"
+398-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-73
+399            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|uiMode"
+399-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-103
+400            android:theme="@style/MultimagerTheme.NoActionBar" >
+400-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-63
+401        </activity>
+402        <activity
+402-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-35:20
+403            android:name="com.vlk.multimager.activities.MultiCameraActivity"
+403-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:32:13-77
+404            android:screenOrientation="portrait"
+404-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:33:13-49
+405            android:theme="@style/MultimagerTheme.NoActionBar" >
+405-->[:lib_ImageGallery] /home/nav180/Documents/AFIEAT/afieatandroid-master/lib_ImageGallery/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:13-63
+406        </activity>
+407        <activity
+407-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+408            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+408-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+409            android:excludeFromRecents="true"
+409-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+410            android:exported="false"
+410-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+411            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+411-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+412        <!--
+413            Service handling Google Sign-In user revocation. For apps that do not integrate with
+414            Google Sign-In, this service will never be started.
+415        -->
+416        <service
+416-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+417            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+417-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+418            android:exported="true"
+418-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+419            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+419-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+420            android:visibleToInstantApps="true" />
+420-->[com.google.android.gms:play-services-auth:19.0.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/cbb6bac8da19392e57902219399ec50b/play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+421
+422        <activity android:name="com.facebook.CustomTabMainActivity" />
+422-->[com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:33:9-71
+422-->[com.facebook.android:facebook-common:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/23c6ed87e279d1fa1ee348efeb23cc09/jetified-facebook-common-5.11.0/AndroidManifest.xml:33:19-68
+423        <!--
+424             FirebaseMessagingService performs security checks at runtime,
+425             no need for explicit permissions despite exported="true"
+426        -->
+427        <service
+427-->[com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+428            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+428-->[com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+429            android:exported="true" >
+429-->[com.google.firebase:firebase-messaging:17.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/b832d01d721c45e59f84a662d1d50b92/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+430            <intent-filter android:priority="-500" >
+430-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:292:13-294:29
+431                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+431-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:293:17-78
+431-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:293:25-75
+432            </intent-filter>
+433        </service>
+434
+435        <meta-data
+435-->[com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:12:9-14:69
+436            android:name="com.google.android.gms.version"
+436-->[com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:13:13-58
+437            android:value="@integer/google_play_services_version" />
+437-->[com.google.maps.android:android-maps-utils:2.2.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/968a838e11598a94b57eb1b0aed23c0d/android-maps-utils-2.2.0/AndroidManifest.xml:14:13-66
+438
+439        <service
+439-->[com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:15:9-21:19
+440            android:name="com.google.firebase.components.ComponentDiscoveryService"
+440-->[com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:16:13-84
+441            android:directBootAware="true"
+441-->[com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:35:13-43
+442            android:exported="false" >
+442-->[com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:17:13-37
+443            <meta-data
+443-->[com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:18:13-20:85
+444                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+444-->[com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:19:17-115
+445                android:value="com.google.firebase.components.ComponentRegistrar" />
+445-->[com.google.firebase:firebase-crashlytics:17.3.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/81bef984d8167892d3a42d413fd17b4f/firebase-crashlytics-17.3.0/AndroidManifest.xml:20:17-82
+446            <meta-data
+446-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+447                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+447-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+448                android:value="com.google.firebase.components.ComponentRegistrar" />
+448-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+449            <meta-data
+449-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+450                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+450-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+451                android:value="com.google.firebase.components.ComponentRegistrar" />
+451-->[com.google.android.gms:play-services-measurement-api:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/107a2cec40d418905bec4a4630682926/play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+452            <meta-data
+452-->[com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:18:13-20:85
+453                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+453-->[com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:19:17-127
+454                android:value="com.google.firebase.components.ComponentRegistrar" />
+454-->[com.google.firebase:firebase-installations:16.3.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/ceb1efcd929016a40f94595d8ce8a090/firebase-installations-16.3.4/AndroidManifest.xml:20:17-82
+455        </service>
+456
+457        <activity
+457-->[:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:16:9-19:66
+458            android:name="com.paytabs.paytabs_sdk.payment.ui.activities.PayTabActivity"
+458-->[:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:17:13-88
+459            android:screenOrientation="portrait"
+459-->[:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:18:13-49
+460            android:theme="@style/PaytabsAppTheme.NoActionBar" />
+460-->[:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:19:13-63
+461        <activity
+461-->[:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:20:9-23:66
+462            android:name="com.paytabs.paytabs_sdk.payment.ui.activities.SecurePaymentActivity"
+462-->[:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:21:13-95
+463            android:screenOrientation="portrait"
+463-->[:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:22:13-49
+464            android:theme="@style/PaytabsAppTheme.NoActionBar" />
+464-->[:paytabs_sdk-v4.0.1] /home/nav180/Documents/AFIEAT/afieatandroid-master/paytabs_sdk-v4.0.1/build/.transforms/ad3675fd1b3544fc4e40ad4221564575/jetified-paytabs_sdk-v4.0.1/AndroidManifest.xml:23:13-63
+465
+466        <receiver
+466-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+467            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+467-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+468            android:exported="true"
+468-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+469            android:permission="com.google.android.c2dm.permission.SEND" >
+469-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+470            <intent-filter>
+470-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+471                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+471-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:128:17-81
+471-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:128:25-78
+472            </intent-filter>
+473        </receiver>
+474        <!--
+475             FirebaseInstanceIdService performs security checks at runtime,
+476             no need for explicit permissions despite exported="true"
+477        -->
+478        <service
+478-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+479            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+479-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+480            android:exported="true" >
+480-->[com.google.firebase:firebase-iid:17.0.4] /home/nav180/.gradle/caches/transforms-2/files-2.1/7747b9b55b43612056097412fbd31c7b/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+481            <intent-filter android:priority="-500" >
+481-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:287:13-289:29
+482                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+482-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:288:17-80
+482-->/home/nav180/Documents/AFIEAT/afieatandroid-master/app/src/main/AndroidManifest.xml:288:25-77
+483            </intent-filter>
+484        </service>
+485
+486        <activity
+486-->[com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+487            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+487-->[com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+488            android:exported="false"
+488-->[com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+489            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+489-->[com.google.android.gms:play-services-base:17.1.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/175e9e8f2d717d6f8ea17bdf78d8ad9b/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+490
+491        <provider
+491-->[com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:26:9-31:39
+492            android:name="com.google.firebase.provider.FirebaseInitProvider"
+492-->[com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:27:13-77
+493            android:authorities="com.afieat.ini.firebaseinitprovider"
+493-->[com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:28:13-72
+494            android:directBootAware="true"
+494-->[com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:29:13-43
+495            android:exported="false"
+495-->[com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:30:13-37
+496            android:initOrder="100" />
+496-->[com.google.firebase:firebase-common:19.4.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/5007d4fd3a4143e94a2653d9a24fd913/firebase-common-19.4.0/AndroidManifest.xml:31:13-36
+497
+498        <receiver
+498-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+499            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+499-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+500            android:enabled="true"
+500-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+501            android:exported="false" >
+501-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+502        </receiver>
+503
+504        <service
+504-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+505            android:name="com.google.android.gms.measurement.AppMeasurementService"
+505-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+506            android:enabled="true"
+506-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+507            android:exported="false" />
+507-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+508        <service
+508-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+509            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+509-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+510            android:enabled="true"
+510-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+511            android:exported="false"
+511-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+512            android:permission="android.permission.BIND_JOB_SERVICE" />
+512-->[com.google.android.gms:play-services-measurement:17.5.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/9a2ba34b98feec3e9cb0316fc67e23fc/play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+513        <!--
+514         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+515         with the application context. This config is merged in with the host app's manifest,
+516         but there can only be one provider with the same authority activated at any given
+517         point; so if the end user has two or more different apps that use Facebook SDK, only the
+518         first one will be able to use the provider. To work around this problem, we use the
+519         following placeholder in the authority to identify each host application as if it was
+520         a completely different provider.
+521        -->
+522        <provider
+522-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:39:9-42:40
+523            android:name="com.facebook.internal.FacebookInitProvider"
+523-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:40:13-70
+524            android:authorities="com.afieat.ini.FacebookInitProvider"
+524-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:41:13-72
+525            android:exported="false" />
+525-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:42:13-37
+526
+527        <receiver
+527-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:44:9-50:20
+528            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+528-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:45:13-86
+529            android:exported="false" >
+529-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:46:13-37
+530            <intent-filter>
+530-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:47:13-49:29
+531                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+531-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:48:17-95
+531-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:48:25-92
+532            </intent-filter>
+533        </receiver>
+534        <receiver
+534-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:51:9-58:20
+535            android:name="com.facebook.CampaignTrackingReceiver"
+535-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:52:13-65
+536            android:exported="true"
+536-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:53:13-36
+537            android:permission="android.permission.INSTALL_PACKAGES" >
+537-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:54:13-69
+538            <intent-filter>
+538-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:55:13-57:29
+539                <action android:name="com.android.vending.INSTALL_REFERRER" />
+539-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:56:17-79
+539-->[com.facebook.android:facebook-core:5.11.0] /home/nav180/.gradle/caches/transforms-2/files-2.1/1529ad253c570e8c653d031625d9e35f/jetified-facebook-core-5.11.0/AndroidManifest.xml:56:25-76
+540            </intent-filter>
+541        </receiver>
+542
+543        <service
+543-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:29:9-35:19
+544            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+544-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:30:13-103
+545            android:exported="false" >
+545-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:31:13-37
+546            <meta-data
+546-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:32:13-34:39
+547                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+547-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:33:17-94
+548                android:value="cct" />
+548-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /home/nav180/.gradle/caches/transforms-2/files-2.1/dcc474b5fd80119c0f3b9e4082899aca/transport-backend-cct-2.3.2/AndroidManifest.xml:34:17-36
+549        </service>
+550        <service
+550-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+551            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+551-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+552            android:exported="false"
+552-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+553            android:permission="android.permission.BIND_JOB_SERVICE" >
+553-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+554        </service>
+555
+556        <receiver
+556-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+557            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+557-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+558            android:exported="false" />
+558-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/nav180/.gradle/caches/transforms-2/files-2.1/a1041db86de2001731b922bf0ff2a334/transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+559    </application>
+560
+561</manifest>

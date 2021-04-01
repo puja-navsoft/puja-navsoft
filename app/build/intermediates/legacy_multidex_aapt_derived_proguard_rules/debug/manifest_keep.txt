@@ -1,0 +1,4 @@
+# Referenced at /home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:50
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/nav180/Documents/AFIEAT/afieatandroid-master/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:50
+-keep class androidx.multidex.MultiDexApplication { <init>(); }
